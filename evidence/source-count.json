@@ -1,0 +1,74 @@
+{
+  "by_round": {
+    "1": {
+      "new_unique": 85,
+      "queries": 12,
+      "results": 88
+    },
+    "2": {
+      "new_unique": 52,
+      "queries": 8,
+      "results": 59
+    },
+    "3": {
+      "new_unique": 59,
+      "queries": 10,
+      "results": 67
+    },
+    "4": {
+      "new_unique": 53,
+      "queries": 8,
+      "results": 59
+    },
+    "5": {
+      "new_unique": 56,
+      "queries": 8,
+      "results": 60
+    },
+    "6": {
+      "new_unique": 54,
+      "queries": 8,
+      "results": 58
+    },
+    "7": {
+      "new_unique": 47,
+      "queries": 8,
+      "results": 58
+    },
+    "8": {
+      "new_unique": 51,
+      "queries": 8,
+      "results": 58
+    },
+    "9": {
+      "new_unique": 47,
+      "queries": 8,
+      "results": 57
+    },
+    "10": {
+      "new_unique": 55,
+      "queries": 8,
+      "results": 60
+    },
+    "11": {
+      "new_unique": 55,
+      "queries": 8,
+      "results": 59
+    },
+    "12": {
+      "new_unique": 42,
+      "queries": 6,
+      "results": 42
+    },
+    "13": {
+      "new_unique": 183,
+      "queries": 26,
+      "results": 188
+    }
+  },
+  "ledger_queries": 126,
+  "remaining": 0,
+  "result_entries": 913,
+  "target": 800,
+  "unique_source_urls": 839
+}

@@ -1,0 +1,15 @@
+{
+ "UnifrakturMaguntia": {
+  "license": "OFL 1.1",
+  "source": "https://fonts.google.com/specimen/UnifrakturMaguntia"
+ },
+ "Playfair Display": {
+  "license": "OFL 1.1",
+  "source": "https://fonts.google.com/specimen/Playfair+Display"
+ },
+ "Spectral": {
+  "license": "OFL 1.1",
+  "source": "https://fonts.google.com/specimen/Spectral"
+ },
+ "note": "Self-hosted by tools/fetch_fonts.py. Latin subset only."
+}

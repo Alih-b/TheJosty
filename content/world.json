@@ -1,0 +1,169 @@
+[
+ {
+  "id": "drug-from-machine",
+  "headline": "A Drug a Machine Helped Design Reports Its First Human Result",
+  "deck": "Rentosertib showed a dose-dependent gain in lung function. The trial was small, and the field is careful about saying so.",
+  "byline": "By The Josty Desk",
+  "dateline": "BOSTON, Oct. 5",
+  "image": "lab-bench",
+  "caption": "A visitor at an Air Force Research Laboratory flow-chemistry bench. The rentosertib trial is not in this picture.",
+  "body": [
+   "Rentosertib is an experimental treatment for idiopathic pulmonary fibrosis, a disease that scars the lungs and makes breathing harder. Developed with generative AI, it was the first such drug to report Phase 2a results. In a randomised, double-blind, placebo-controlled trial published in Nature Medicine, the highest dose was associated with a mean 98.4-millilitre gain in forced vital capacity after 12 weeks. Forced vital capacity is the amount of air a patient can forcibly exhale.",
+   "The signal needs caution: only 17 patients received the 60-milligram dose, and the reported confidence interval was wide. Lung function can vary, and a short trial cannot show whether the benefit lasts or improves patients’ daily lives. A larger study is needed before the result can establish effectiveness.",
+   "The pipeline behind it is expanding quickly. One count puts more than 200 AI-linked programmes in clinical development, a 732 percent increase in about two years, with the largest concentration in oncology and fibrosis.",
+   "Success rates tell a more sober story. Reported success for AI-discovered candidates, around 40 percent, sits within the historical range for conventional discovery rather than clearly above it. The technology has so far demonstrated speed and cost advantage, not superiority in predicting whether a molecule will work in a human being."
+  ],
+  "sources": [
+   {
+    "publisher": "Nature Medicine",
+    "date": "Jun. 3, 2025",
+    "url": "https://www.nature.com/articles/s41591-025-03743-2"
+   },
+   {
+    "publisher": "BioCosm",
+    "date": "2026",
+    "url": "https://biocosm.io/drug/pipeline-rentosertib"
+   },
+   {
+    "publisher": "Healthcare Discovery",
+    "date": "Apr. 25, 2026",
+    "url": "https://healthcarediscovery.ai/ai-drug-discovery-pipeline-2026-clinical-trials/"
+   }
+  ]
+ },
+ {
+  "id": "forecast-not-replication",
+  "kicker": "Science",
+  "headline": "The Forecast Got Fast. The Replication Did Not.",
+  "deck": "Stanford’s 2026 index says AI systems now run weather pipelines. On the same PaperArena questions, Gemini 2.5 Pro scores 38.8 percent and a doctoral baseline scores 83.50 percent.",
+  "byline": "By The Josty Desk",
+  "dateline": "STANFORD, Calif., Oct. 5",
+  "body": [
+   "The flattering half of the year is the sky. Stanford’s AI Index reports that in 2025 an AI system ran a full weather-forecasting pipeline from end to end, and that Aardvark Weather replaced the traditional numerical pipeline with one machine-learning system. FourCastNet 3, the index says, produces a 60-day global forecast at 0.25-degree resolution in under four minutes on a single GPU, running 8 to 60 times faster than prior approaches. The index also records operational deployment of AI weather models at the European Centre for Medium-Range Weather.",
+   "The unflattering half is the replication. On PaperArena, a test of whether an agent can answer a real research question by stitching papers to tools, the index says Gemini 2.5 Pro leads at 38.8 percent average accuracy in a multi-agent setup. The doctoral baseline on the same questions is 83.50 percent. Giving the model colleagues helps, and not by much: multi-agent setups beat single agents by a typical 2 to 4 percentage points. On ReplicationBench, in computational astrophysics, frontier models score below 20 percent when the task is to reproduce a paper rather than to summarise one.",
+   "A third benchmark points the other way and should not be averaged in. On ChemBench, a chemistry evaluation with over 2,700 question-answer pairs, the index says the best frontier models outperform the best human chemists, though they struggle with basic tasks. Outperforming a chemist on a question set is not the same result as failing to rerun a paper.",
+   "The systems are fast where the data already exist and the score is a forecast. They are weak where the score is whether the work can be done again."
+  ],
+  "sources": [
+   {
+    "publisher": "Stanford HAI",
+    "date": "2026",
+    "url": "https://hai.stanford.edu/assets/files/ai_index_report_2026_chapter_5_science.pdf"
+   }
+  ],
+  "pullquote": "ReplicationBench reports frontier model performance below 20% on paper-scale replication tasks in computational astrophysics.",
+  "pullquote_by": "Stanford AI Index 2026, Chapter 5"
+ },
+ {
+  "id": "classrooms-first",
+  "headline": "The Classrooms Wrote Their Rules First",
+  "deck": "While national governments debated, state legislatures drafted 278 bills and passed a handful. Students drafted one of the proposals.",
+  "byline": "By The Josty Desk",
+  "dateline": "OKLAHOMA CITY, Oct. 5",
+  "body": [
+   "A legislative tracker lists 278 AI-in-education bills across 37 states this year; 27 states still had active bills and five measures had become law when it counted. Those numbers describe proposals as well as enacted rules. Schools are moving ahead while Congress has yet to set a national policy.",
+   "Oklahoma’s Responsible Technology in Schools Act requires every district to have a written AI policy in place before the 2027–28 school year. The statute directs that use be educator-led and keeps a human in the loop; a state toolkit supplies districts with templates and planning material.",
+   "Other proposals go further, banning automated high-stakes decisions about students without meaningful human oversight, restricting profiling, and imposing data-minimisation and deletion requirements. The federal Department of Education finalised a grant-priority rule on AI in April, nudging rather than commanding.",
+   "Students have also drafted policy. The STUDENT FIRST Act was adopted at a youth AI festival in Boston; it is a proposal by students, not a state statute. Their participation matters, but the festival vote gives the text no legal force."
+  ],
+  "sources": [
+   {
+    "publisher": "AI Laws By State",
+    "date": "2026",
+    "url": "https://www.ailawsbystate.com/topic/ai-in-education"
+   },
+   {
+    "publisher": "LegiScan",
+    "date": "2026",
+    "url": "https://legiscan.com/OK/text/SB1734/id/3432995"
+   },
+   {
+    "publisher": "FutureEd",
+    "date": "Mar. 2, 2026",
+    "url": "https://www.future-ed.org/legislative-tracker-2026-state-ai-in-education-bills/"
+   },
+   {
+    "publisher": "AASA",
+    "date": "Jul. 30, 2026",
+    "url": "https://www.aasa.org/resources/resource/students-first-act"
+   }
+  ],
+  "image": "classroom",
+  "caption": "Children at desks in a classroom at Kibbutz Shluchot. The statutes in this story were drafted in other rooms."
+ },
+ {
+  "id": "security-faster",
+  "headline": "Both Sides Got Faster; Neither Got Stranger",
+  "deck": "AI found a two-decade-old bug in OpenSSL. The attackers, so far, are doing the same things more quickly.",
+  "byline": "By The Josty Desk",
+  "dateline": "GENEVA, Oct. 5",
+  "body": [
+   "In a World Economic Forum survey of 804 security leaders across 92 countries, 94 percent named AI as a major driver of change in cybersecurity. The report places it alongside geopolitical tensions and supply-chain risks; it is a measure of leaders’ expectations, not a count of attacks caused by AI.",
+   "Defenders have a concrete example, though not a new one: Google reported in 2024 that its AI-assisted fuzzing work helped uncover 26 vulnerabilities, including a 20-year-old flaw in OpenSSL, software used to secure internet connections. The episode shows how automated testing can help find old bugs; it should not be mistaken for a 2026 discovery or proof that AI alone did the work.",
+   "For attackers, Sophos found a similar pattern: AI can speed up familiar operations, but evidence of entirely new kinds of attack remains ‘limited rather than absent.’ Faster work is not the same as a new kind of threat.",
+   "Check Point found a separate risk inside companies: nearly one in 17 business AI interactions it analyzed carried a high risk of exposing sensitive data. That is a sample of workplace use, not a rate for every AI conversation."
+  ],
+  "sources": [
+   {
+    "publisher": "WEF",
+    "date": "Jan. 12, 2026",
+    "url": "https://www.weforum.org/publications/global-cybersecurity-outlook-2026/"
+   },
+   {
+    "publisher": "Vikram Infosec",
+    "date": "Feb. 10, 2026",
+    "url": "https://vikraminfosec.com/research/ai-driven-cyber-offense-defense"
+   },
+   {
+    "publisher": "Sophos",
+    "date": "2026",
+    "url": "https://www.sophos.com/en-us/content/sophos-ai-security-2026-report"
+   },
+   {
+    "publisher": "Check Point",
+    "date": "Jul. 14, 2026",
+    "url": "https://research.checkpoint.com/2026/ai-security-report-2026/"
+   },
+   {
+    "publisher": "Google Online Security Blog",
+    "date": "Nov. 20, 2024",
+    "url": "https://security.googleblog.com/2024/11/leveling-up-fuzzing-finding-more.html"
+   }
+  ],
+  "image": null
+ },
+ {
+  "id": "public-shrugs",
+  "headline": "The Public Shrugs, Politely",
+  "deck": "Adoption is broad and shallow, spending is concentrated, and trust in the news about any of it is falling.",
+  "byline": "By The Josty Desk",
+  "dateline": "NEW YORK, Oct. 5",
+  "body": [
+   "A survey by the American Customer Satisfaction Index found that 56 percent of U.S. adults had not recently used an AI platform. Menlo Ventures measured chatbot use at 64 percent, up three points, while consumer spending tripled to about $40 billion. The surveys use different measures: one asks about recent use of any platform; the other tracks chatbot use and spending. Together they point to adoption that is uneven, not universal.",
+   "Trust may be another matter, though the 27 percent figure comes from a single survey rather than a broad consensus: respondents said they trusted news about AI.",
+   "Platforms have begun to act on synthetic media. Spotify introduced an “AI Persona” badge for synthetic artist identities and removed their music from editorial and algorithmic recommendations, and other services have started labelling or filtering synthetic content."
+  ],
+  "sources": [
+   {
+    "publisher": "ACSI",
+    "date": "2026",
+    "url": "https://theacsi.com/wp-content/uploads/2026/04/AI-Survey-Report_ACSI_2026.pdf"
+   },
+   {
+    "publisher": "Menlo Ventures",
+    "date": "Sep. 15, 2026",
+    "url": "https://menlovc.com/wp-content/uploads/2026/09/menlo_ventures_consumer_ai_report-2026.pdf"
+   },
+   {
+    "publisher": "GlobalViews",
+    "date": "Jun. 23, 2026",
+    "url": "https://globalviewsworld.com/news-consumption-2026-ai-s-trust-crisis-amidst-growth/"
+   },
+   {
+    "publisher": "TechCrunch",
+    "date": "Aug. 11, 2026",
+    "url": "https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/"
+   }
+  ]
+ }
+]

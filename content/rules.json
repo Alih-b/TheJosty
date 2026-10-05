@@ -1,0 +1,180 @@
+[
+ {
+  "id": "washington-not-yet",
+  "headline": "Washington Says Not Yet, and Takes a Stake Instead",
+  "deck": "The administration rejected the case for binding rules, signed a voluntary accord, and opened talks about owning part of OpenAI.",
+  "byline": "By The Josty Desk",
+  "dateline": "WASHINGTON, Oct. 5",
+  "body": [
+   "In September, President Trump rejected calls for new federal AI rules and criticised Dario Amodei, the chief executive of Anthropic, after Amodei proposed government authority to block a model release that failed safety tests. The administration was also sceptical of a request for antitrust protection: legal cover for rival AI labs to work together on safety standards without violating competition law.",
+   "Some technology executives backed Amodei’s call to slow frontier-model development, while still opposing broad restrictions. Sam Altman of OpenAI and Elon Musk of xAI publicly supported more testing; Musk also urged leading labs, including Chinese companies, to test models before release. At a G20 technology summit, executives including Nvidia chief Jensen Huang and Meta chief Mark Zuckerberg argued against sweeping rules. Their positions were not identical, but all placed safety testing above blanket limits.",
+   "On Oct. 2, the White House and a group of chief executives signed a voluntary accord on managing AI risk. It relies on companies to follow through rather than on a new law or independent enforcement, the distinction at the centre of the debate.",
+   "OpenAI proposed donating a 5 percent stake in the company to the U.S. government, valuing it at about $42.6 billion on the company’s reported valuation. The proposal borrowed the idea of a public fund from Alaska’s Permanent Fund, which invests state oil revenue for residents. Critics warned that government ownership could complicate its role as regulator. Washington has not accepted the proposal."
+  ],
+  "sources": [
+   {
+    "publisher": "CNBC",
+    "date": "Sep. 14, 2026",
+    "url": "https://www.cnbc.com/2026/09/14/trump-ai-data-centers-anthropic-dario-amodei.html"
+   },
+   {
+    "publisher": "The Guardian",
+    "date": "Sep. 13, 2026",
+    "url": "https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development"
+   },
+   {
+    "publisher": "USA Today",
+    "date": "Oct. 2, 2026",
+    "url": "https://www.usatoday.com/story/tech/2026/10/02/trump-ai-ceo-self-police-accord-risks/92025139007/"
+   },
+   {
+    "publisher": "TechCrunch",
+    "date": "Jul. 2, 2026",
+    "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/"
+   }
+  ]
+ },
+ {
+  "id": "brussels-both",
+  "headline": "Brussels Enforces Its Rules and Postpones Them at the Same Time",
+  "deck": "The EU switched on fines for model providers in August. Weeks earlier it moved its strictest obligations to 2027.",
+  "byline": "By The Josty Desk",
+  "dateline": "BRUSSELS, Oct. 5",
+  "image": "eu-parliament",
+  "caption": "The European Parliament. The bloc activated enforcement and deferred its high-risk regime within the same season.",
+  "body": [
+   "On Aug. 2, parts of the European Union’s AI Act began to apply. Article 50 requires transparency in certain AI interactions and AI-generated content; the European Commission’s AI Office also began enforcing rules for general-purpose AI models. This was not the start of every obligation in the Act.",
+   "At the same time, the EU delayed some rules for high-risk systems: AI used in areas such as hiring, education or essential services. The Digital Omnibus moved the deadline for stand-alone systems to December 2027 and some product-related duties to August 2028. In other words, enforcement began in one part of the law while the most demanding obligations for some uses were pushed back.",
+   "Officials describe the change as simplification: a pause to let industry and national authorities prepare rather than a retreat. Legal analysts note what it means in practice. A company deploying a high-risk system in Europe now has more than a year of extra runway, while a provider of a general-purpose model is already exposed to penalties.",
+   "Europe’s policy is moving on two tracks: some transparency and model-provider rules are in force, while deadlines for parts of the high-risk regime have moved back."
+  ],
+  "sources": [
+   {
+    "publisher": "European Commission",
+    "date": "Aug. 24, 2026",
+    "url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act"
+   },
+   {
+    "publisher": "Bratby Law",
+    "date": "May 6, 2026",
+    "url": "https://bratby.law/digital-omnibus-ai-high-risk-delay/"
+   },
+   {
+    "publisher": "Enzai",
+    "date": "Jul. 30, 2026",
+    "url": "https://www.enz.ai/eu-ai-act-delay-is-now-law-new-2027-and-2028-deadlines"
+   }
+  ]
+ },
+ {
+  "id": "safety-or-moat",
+  "headline": "Safety, or a Moat? The Case Against the Industry’s Own Rules",
+  "deck": "A research paper argues that rules shaped by the largest AI labs can double as barriers to competition. The labs call it prudence.",
+  "byline": "By The Josty Desk",
+  "dateline": "LONDON, Oct. 5",
+  "body": [
+   "A May research paper, “Big AI’s Regulatory Capture,” argues that rules shaped around the largest AI companies could make it harder for smaller competitors to enter the market. The authors describe a structural risk: firms with the most money and expertise can shape rules that everyone else must follow. That is their argument, not proof that regulators have been captured.",
+   "The Register made the criticism more pointed, describing an industry campaign to “pace the frontier” as companies helping write the rules that would govern them. Its companion argument was that emphasis on catastrophic risk can also serve incumbents by raising the cost of entry for rivals.",
+   "A separate paper in the journal AI & Society examined proposals to prevent regulatory capture in AI safety. Its conclusion was less accusatory: preventing capture is difficult in any concentrated industry, not a problem unique to AI.",
+   "The companies reject the capture argument. They say the risks are real, voluntary standards are inadequate and asking for binding rules runs against their short-term interest. The evidence does not settle motive: the same call for regulation can be a safety measure and a way to shape who gets to compete."
+  ],
+  "sources": [
+   {
+    "publisher": "arXiv",
+    "date": "May 7, 2026",
+    "url": "https://arxiv.org/abs/2605.06806"
+   },
+   {
+    "publisher": "The Register",
+    "date": "Sep. 14, 2026",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067"
+   },
+   {
+    "publisher": "AI & Society",
+    "date": "2025",
+    "url": "https://link.springer.com/article/10.1007/s00146-025-02534-0"
+   }
+  ]
+ },
+ {
+  "id": "bengio-report",
+  "headline": "The Report That Sticks to What Can Be Measured",
+  "deck": "More than a hundred experts, chaired by a Turing laureate, published an evidence base that sticks to what can be measured.",
+  "byline": "By The Josty Desk",
+  "dateline": "MONTREAL, Oct. 5",
+  "body": [
+   "The second International AI Safety Report appeared in February. More than 100 experts contributed under the chairmanship of Yoshua Bengio, a computer scientist who won the Turing Award. The report reviews evidence about general-purpose AI systems rather than predicting either catastrophe or a golden age.",
+   "The report points to practical tools: model tests, thresholds for dangerous capabilities, and “if-then” commitments in which a developer states in advance what it will do if a test is failed. These are ways to make a promise checkable, not a claim that risk has been solved.",
+   "In February, national AI safety institutes also formed a new international network focused on measurement and evaluation. Its name signals the shift from broad pledges toward shared ways to test systems: the International Network for Advanced AI Measurement, Evaluation and Science.",
+   "Everyone agreed on the hard questions: how to test a system, how to compare two, who writes the test. Nobody agreed on the loud ones, and the report declines to pretend otherwise."
+  ],
+  "sources": [
+   {
+    "publisher": "International AI Safety Report",
+    "date": "Feb. 3, 2026",
+    "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026"
+   },
+   {
+    "publisher": "NIST",
+    "date": "Feb. 13, 2026",
+    "url": "https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science"
+   },
+   {
+    "publisher": "arXiv",
+    "date": "Feb. 24, 2026",
+    "url": "https://arxiv.org/abs/2602.21012"
+   }
+  ]
+ },
+ {
+  "id": "california-robo-bosses",
+  "headline": "California Signs a Robo-Bosses Law and a Layoff Notice for AI",
+  "deck": "One statute limits how automated decision systems may be used against employees from 1 July 2027, and the other puts a technology displacement at the top of a mass-layoff notice.",
+  "byline": "By The Josty Desk",
+  "dateline": "SACRAMENTO, Oct. 5",
+  "body": [
+   "Governor Gavin Newsom signed two employment bills on 30 September 2026. SB 947, “Employment: automated decision systems”, was chaptered as Chapter 859 of the Statutes of 2026. SB 951, “Employment: technological displacement: notice”, was chaptered as Chapter 860.",
+   "SB 947’s digest says it would, “beginning on July 1, 2027”, prohibit “an employer, as defined, from using an ADS to perform certain functions” and “limit the purposes for and way in which an ADS may be used”. ADS is the bill’s shorthand for an automated decision system, and the measure carries “a $500 civil penalty per violation”.",
+   "SB 947 is being called the “No Robo Bosses Act”. CNBC reported that the governor had signed a law “banning Golden State employers from relying solely on artificial intelligence to fire or discipline workers”.",
+   "SB 951 changes the notice an employer must give before a mass layoff. Under the revised Cal/WARN Act, a layoff “caused in whole or in substantial part by an AI system or other automated technology replacing or automating employment positions” triggers a notice that must include specified information.",
+   "One required element is a sentence at the top of that notice. The chaptered text says the notice “shall include the statement 'This notice is for a technology displacement' at the top of the notice”.",
+   "The chaptered text retains the thresholds already in the Cal/WARN Act. It keeps the 60-day notice period and the “75 or more persons” definition of a covered establishment."
+  ],
+  "sources": [
+   {
+    "publisher": "Office of Governor Gavin Newsom",
+    "date": "Sep. 30, 2026",
+    "url": "https://www.gov.ca.gov/2026/09/30/californias-nation-leading-ai-framework-just-got-stronger-governor-newsom-signs-more-first-in-the-nation-worker-protections-and-more/"
+   },
+   {
+    "publisher": "CNBC",
+    "date": "Sep. 30, 2026",
+    "url": "https://www.cnbc.com/2026/09/30/california-gavin-newsom-ai-ban.html"
+   }
+  ],
+  "pullquote": "This notice is for a technology displacement",
+  "pullquote_by": "SB 951, Chapter 860, Statutes of 2026"
+ },
+ {
+  "id": "hallucination-fine",
+  "headline": "A Lawyer Is Sanctioned Over an AI Hallucination",
+  "deck": "Reuters reported the sanction on 14 September, and only the headline could be verified here, so the amount and the full ruling are not reported.",
+  "byline": "By The Josty Desk",
+  "dateline": "LOS ANGELES, Oct. 5",
+  "body": [
+   "Reuters reported on 14 September 2026 that a California judge ordered a lawyer sanctioned over an AI hallucination in a Los Angeles lawsuit. That sentence is the extent of what this account can verify.",
+   "The article itself could not be read. Reuters returned an authentication error to automated retrieval, so the body of the report was not available.",
+   "Several details are therefore absent rather than omitted. The amount of the sanction, the name of the judge, the name of the case and the full text of the ruling were not read for this account and are not reported here.",
+   "What the headline establishes is the subject of the sanction. The filing relied on an authority that an AI system supplied, and sanctions over fabricated citations are the mechanism courts are using.",
+   "Sanctions are one mechanism a court can apply when a filing cites an authority that cannot be found. The size of such a sanction varies with the court and the conduct, and this account supplies no figure.",
+   "The report is single-sourced. No second outlet, court docket or copy of the order was checked, and the ruling may contain findings that this story does not describe."
+  ],
+  "sources": [
+   {
+    "publisher": "Reuters",
+    "date": "Sep. 14, 2026",
+    "url": "https://www.reuters.com/legal/litigation/lawyer-state-farm-fined-over-ai-hallucination-los-angeles-lawsuit-2026-09-14/"
+   }
+  ]
+ }
+]

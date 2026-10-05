@@ -1,0 +1,173 @@
+[
+ {
+  "id": "clock-disagreed",
+  "kicker": "Field experiment",
+  "headline": "They Felt Faster. The Tasks Took Longer.",
+  "deck": "Experienced maintainers, timed on their own repositories, were 19 percent slower with AI tools and still believed they had been sped up. A follow-up begun in August 2025 never held a clean control: developers withheld tasks rather than work without the tools, and both intervals that remained crossed zero.",
+  "byline": "By The Josty Desk",
+  "dateline": "NEW YORK, Oct. 5",
+  "image": "pair-programming",
+  "caption": "Two programmers share one machine. METR did not photograph its subjects. It timed them, on repositories they already maintained, with the assistant switched on or off.",
+  "body": [
+   "From February to June 2025, the research group METR ran a randomised trial on a question the industry had been answering with anecdotes. Sixteen developers who had maintained large open-source projects for an average of five years listed 246 real issues. Researchers randomly assigned each issue to an AI-allowed or AI-forbidden condition. The developers, paid $150 an hour and using mostly Cursor with Claude 3.5 or 3.7 Sonnet, took 19 percent longer when AI was allowed. The confidence interval ran from 2 percent longer to 39 percent longer.",
+   "They did not believe the clock. Before the tasks they forecast that AI would make them 24 percent faster. Economists METR asked had forecast 39 percent faster, and machine-learning researchers 38 percent. After the slowdown, the developers still estimated that the tools had sped them up by 20 percent. METR is explicit about what this does not prove: not that most programmers are slower, not that other jobs are, and not that a lab sampling hundreds of attempts would see the same result.",
+   "In February 2026 the group said the sequel had come apart. A second experiment, started in August 2025, kept 10 of the original developers and added 47, at $50 an hour. People refused the control. Between 30 and 50 percent of them said they were withholding tasks they did not want to attempt without AI, and the time logs grew unreliable once several agents ran at once. For the returning developers the point estimate was 18 percent slower, with an interval from 38 percent slower to 9 percent faster. For the new recruits it was 4 percent slower, from 15 percent slower to 9 percent faster. Those point estimates are still slowdowns. METR believes the tools produced more speedup in early 2026 than its early-2025 estimate had measured, and says the data are “only very weak evidence” for the size of that increase, because the volunteers who refused are the ones most likely to have been helped."
+  ],
+  "sources": [
+   {
+    "publisher": "METR",
+    "date": "Jul. 10, 2025",
+    "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
+   },
+   {
+    "publisher": "arXiv",
+    "date": "Jul. 2025",
+    "url": "https://arxiv.org/abs/2507.09089"
+   },
+   {
+    "publisher": "METR",
+    "date": "Feb. 24, 2026",
+    "url": "https://metr.org/blog/2026-02-24-uplift-update/"
+   }
+  ],
+  "pullquote": "When developers are allowed to use AI tools, they take 19% longer to complete issues—a significant slowdown that goes against developer beliefs and expert forecasts.",
+  "pullquote_by": "METR, 10 July 2025"
+ },
+ {
+  "id": "hiring-at-the-bottom",
+  "headline": "No Mass Layoffs, but the Bottom of the Ladder Is Thinning",
+  "deck": "The clearest labour-market effect of AI is not dismissal. It is that nobody is being hired to start.",
+  "byline": "By The Josty Desk",
+  "dateline": "PALO ALTO, Oct. 5",
+  "body": [
+   "Stanford’s Digital Economy Lab analyzed payroll records supplied by ADP, a large U.S. payroll processor whose data cover about one in six American workers. The researchers found no widespread job displacement, but did find a widening employment gap for young workers in occupations most exposed to AI.",
+   "The August 2025 paper estimated that employment for workers aged 22 to 25 in those roles was about 13 percent below its comparison path; the August 2026 revision put the gap at 19 percent. The researchers describe the mechanism as slower hiring, not mass firing. Their data show a correlation with AI exposure, not proof that AI alone caused the gap.",
+   "The developer workforce reports a similar split in attitudes. Stack Overflow’s annual survey, covering 49,000 developers in 177 countries, found adoption of AI coding tools at 84 percent and trust in them at 29 percent, a fall of eleven points in two years. Developers are using the tools and declining to rely on them.",
+   "Economists caution that both findings are young, and that a labour market shaped by a new technology takes years to show its shape. The early shape is a missing cohort at the start of careers, which is harder to see than a layoff and slower to reverse."
+  ],
+  "sources": [
+   {
+    "publisher": "Stanford Digital Economy Lab",
+    "date": "Aug. 12, 2026",
+    "url": "https://digitaleconomy.stanford.edu/news/canariesaug26/"
+   },
+   {
+    "publisher": "Startup Fortune",
+    "date": "Aug. 25, 2026",
+    "url": "https://startupfortune.com/stanford-payroll-data-shows-ai-has-cut-young-workers-job-gap-to-19/"
+   }
+  ]
+ },
+ {
+  "id": "robots-on-floor",
+  "headline": "Robots on the Factory Floor, and a Robot on the Floor",
+  "deck": "Five humanoid programmes reached customer pilots this year. A live demonstration at Computex showed the other side of the timeline.",
+  "byline": "By The Josty Desk",
+  "dateline": "SANTA CLARA, Calif., Oct. 5",
+  "image": "humanoid",
+  "caption": "A 3-D printed robot photographed at a student technology festival in 2015. An illustrative machine, not a deployed one.",
+  "body": [
+   "Several companies say their human-shaped robots have entered customer pilots, among them Tesla, Figure, Apptronik, Agility Robotics and 1X. A public tracker lists 32 deployments, most described as trials in manufacturing or logistics, not robots already doing routine production work.",
+   "A pilot is a test at a customer site, not proof of large-scale use. Even the companies building the machines describe mainstream adoption as years away, not months.",
+   "Demonstrations have been less forgiving. At Computex in Taipei, a humanoid running on Qualcomm’s Dragonwing platform collapsed mid-presentation and was carried off stage: an unusually public illustration of the distance between a specification sheet and a factory shift.",
+   "Where the technology does arrive, it arrives with a labour argument attached. IEEE Humanoids 2026, which convenes in Santa Clara in December, has made labour displacement its defining theme, a subject the field once treated as someone else’s conference."
+  ],
+  "sources": [
+   {
+    "publisher": "Humanoid Applications",
+    "date": "Oct. 2026",
+    "url": "https://humanoidapplications.com/deployments/"
+   },
+   {
+    "publisher": "Gadget Review",
+    "date": "Jul. 28, 2026",
+    "url": "https://www.gadgetreview.com/a-humanoid-robot-dies-on-stage-at-computex-2026-gets-carried-off"
+   },
+   {
+    "publisher": "TechTimes",
+    "date": "Jul. 25, 2026",
+    "url": "https://www.techtimes.com/articles/321587/20260725/humanoid-robots-enter-factory-ieee-humanoids-2026-sets-labor-displacement-its-defining-theme.htm"
+   }
+  ]
+ },
+ {
+  "id": "when-code-goes-rogue",
+  "headline": "When AI Code Is Blamed, and When It Is Not",
+  "deck": "Amazon spent March arguing about what caused a run of outages. Its internal documents and its public statements did not agree.",
+  "byline": "By The Josty Desk",
+  "dateline": "SEATTLE, Oct. 5",
+  "body": [
+   "Amazon faced several marketplace disruptions in March, but reports disagree about their size and causes. Internal documents cited by the press put one six-hour outage at about 6.3 million lost orders; other accounts describe a separate incident affecting about 120,000 orders. The figures should not be merged into one event.",
+   "Amazon said a permissions change and deployment process caused the incidents, not its AI coding assistant. CNBC reported that Amazon convened an internal review; Business Insider reported that at least one disruption was tied to the assistant, then named Amazon Q, the product later replaced by Kiro. One trade publication reported that a reference to generative AI had been removed from internal documents before release.",
+   "Two accounts therefore exist in the record: internal notes that point at AI-assisted changes, and a public statement that points at human error. Both are consistent with the same underlying fact, which is that a code change nobody fully reviewed reached production.",
+   "What the company did not dispute was the response. Amazon tightened review across hundreds of critical systems and slowed the pace at which agents were allowed to touch them."
+  ],
+  "sources": [
+   {
+    "publisher": "CNBC",
+    "date": "Mar. 10, 2026",
+    "url": "https://www.cnbc.com/2026/03/10/amazon-plans-deep-dive-internal-meeting-address-ai-related-outages.html"
+   },
+   {
+    "publisher": "Business Insider",
+    "date": "Mar. 10, 2026",
+    "url": "https://www.businessinsider.com/amazon-tightens-code-controls-after-outages-including-one-ai-2026-3"
+   },
+   {
+    "publisher": "The Register",
+    "date": "Mar. 10, 2026",
+    "url": "https://www.theregister.com/software/2026/03/10/amazon-insists-ai-coding-isnt-source-of-outages/5222439"
+   }
+  ]
+ },
+ {
+  "id": "enterprise-bill",
+  "headline": "Enterprises Start Counting What the Code Costs",
+  "deck": "A platform outage in logistics and a blocked app store category turned quality into a board-level subject.",
+  "byline": "By The Josty Desk",
+  "dateline": "NEW YORK, Oct. 5",
+  "body": [
+   "The clearest enterprise case of the year did not involve a coding agent at all. WiseTech’s CargoWise platform, which moves freight documentation for much of the industry, suffered an outage traced to a faulty software data update and required an emergency rollback. The lesson drawn by the company’s own reviewers concerned automated regression testing, which had not caught the change.",
+   "Elsewhere the pressure arrived from outside. Apple blocked applications whose central purpose was generating code by description from its App Store, on the grounds that they could not be reviewed to its standards.",
+   "The industry response has been procedural rather than technical: more reviews, fewer permissions for agents, a human back on the deploy button.",
+   "None of this is an argument that AI-written code is bad. It is an argument that unreviewed change is invoiced as an outage, in a currency older than the software that caused it: downtime."
+  ],
+  "sources": [
+   {
+    "publisher": "LinkedIn",
+    "date": "Aug. 26, 2026",
+    "url": "https://www.linkedin.com/pulse/real-cost-vibe-coding-lessons-ctos-from-2026-cargowise-ashish-ganda-kuiic"
+   },
+   {
+    "publisher": "Crackr",
+    "date": "2026",
+    "url": "https://crackr.dev/vibe-coding-failures"
+   }
+  ]
+ },
+ {
+  "id": "el-paso-conditional",
+  "headline": "Judges Recommend the El Paso Plant, on One Condition",
+  "deck": "Two administrative law judges said the plant should be approved only if El Paso Electric keeps its capital and operating costs off ratepayers, and the application has no vote scheduled.",
+  "byline": "By The Josty Desk",
+  "dateline": "EL PASO, Oct. 5",
+  "body": [
+   "El Paso Electric asked the Texas Public Utilities Commission to approve a gas plant called McCloud with a capacity of 366 MW, along with 813 Enchanted Rock modular generators, to serve a Meta data centre of roughly 1 GW in El Paso. Inside Climate News put the total estimated cost at $499 million; the El Paso Times, whose report gives the total as $552 million, describes the case as judges backing the plant “if EP Electric customers don’t pay”.",
+   "Two administrative law judges issued a report on the application on 23 September 2026. They recommended that the Commission “only approve the application on the condition that El Paso Electric does not pass capital and operating costs on to its ratepayers”.",
+   "The judges attached a consequence, as Inside Climate News summarised their proposed decision: “Without this condition, the judges recommend the application be denied.”",
+   "The recommendation is not a decision. The application has not yet been scheduled for a vote, and the plant has not been approved.",
+   "The judges questioned the utility’s procurement. They asked why El Paso Electric “did not seek competing bids”, found that it “failed to adequately consider alternatives” and found that it “failed to issue a request for proposals”.",
+   "The case drew participation from outside the utility. The City of El Paso intervened, and a coalition submitted “comments of over 1,000 people”.",
+   "The judges’ findings were reported by Inside Climate News on 24 September, by KTSM on 25 September and by the El Paso Times on 28 September. The application now waits on the Commission."
+  ],
+  "sources": [
+   {
+    "publisher": "Inside Climate News",
+    "date": "Sep. 24, 2026",
+    "url": "https://insideclimatenews.org/news/24092026/el-paso-electric-only-considered-gas-to-power-meta-data-center/"
+   }
+  ],
+  "pullquote": "Without this condition, the judges recommend the application be denied.",
+  "pullquote_by": "Inside Climate News, quoting the judges’ proposed decision, 24 September 2026"
+ }
+]

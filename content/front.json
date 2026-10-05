@@ -1,0 +1,199 @@
+[
+ {
+  "id": "si-force",
+  "front": 1,
+  "headline": "The Government Renamed the Subject, Then Staffed a Force for It",
+  "deck": "An executive order told federal agencies to write “Super Intelligence” where they used to write “Artificial Intelligence”. Five days later the President announced a task force of the same name, in a social-media post.",
+  "byline": "By The Josty Desk",
+  "dateline": "WASHINGTON, Oct. 5",
+  "body": [
+   "On Sept. 29, President Donald Trump signed an executive order directing executive-branch agencies to replace “Artificial Intelligence” and “AI” with “Super Intelligence” and “SI” in official communications, websites, reports and policy documents. The order says the branch should do this “to the maximum extent permitted by law”.",
+   "That limit is the substance of it. The order does not change existing statutes, and it does not require agencies to rewrite regulations, contracts, grants or historical documents that already use the old term. It also starts a sixty-day process that could end in a new federal definition of the phrase. The administration’s argument, as the order states it, is that “the extraordinary technologies being pioneered by American innovators far exceed what was envisioned when the term ‘Artificial Intelligence’ first came into use,” a term roughly seventy years old.",
+   "The renaming drew attention because it reverses the usual direction of federal language. Administrations normally adopt the vocabulary that industry and the public already use; this one told its own agencies to stop using it. What the change actually alters in law, so far, is nothing, which is why the size of the story depends on what comes next rather than on the memorandum itself.",
+   "On Oct. 4 the President announced the second half, in a post on Truth Social: a new federal task force, the “Super Intelligence Force”, with Director of National Intelligence Jay Clayton at the helm. The post said the group exists to “ensure that America continues to lead the World in Super Intelligence,” according to accounts of the post. Its stated work is a report on the technology’s risks and opportunities, due within 120 days, covering also how the government handles disclosure of security breaches.",
+   "Under its stated charter the group must develop plans for responding to “SI-enabled threats to our society” while preventing “overregulation and regulatory capture that would stifle innovation and competition”. The White House has not issued a separate release about the force; the announcement rests on the Truth Social post, and reporting of Clayton’s role and the 120-day deadline rests on his statements to The Wall Street Journal. The list of members beyond the chair, and the formal title, are still reported rather than published.",
+   "Read alongside the existing record, the two actions point in opposite directions from the rules this page has covered all year. The European Union spent August switching on enforcement; California spent September signing statutes; this administration rejected binding rules in favour of a voluntary accord and, for one planned stake, an ownership interest. The order and the force add a third instrument: vocabulary and a reporting channel. Whether a renamed subject is governed differently is the question the next 120 days will answer."
+  ],
+  "sources": [
+   {
+    "publisher": "TechRepublic",
+    "date": "Sep. 30, 2026",
+    "url": "https://www.techrepublic.com/article/news-trump-super-intelligence-ai-executive-order/"
+   },
+   {
+    "publisher": "SiliconANGLE",
+    "date": "Oct. 4, 2026",
+    "url": "https://siliconangle.com/2026/10/04/trump-launches-super-intelligence-force-with-jay-clayton-as-ai-czar/"
+   },
+   {
+    "publisher": "The White House",
+    "date": "Sep. 2026",
+    "url": "https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/"
+   }
+  ],
+  "pullquote": "The extraordinary technologies being pioneered by American innovators far exceed what was envisioned when the term ‘Artificial Intelligence’ first came into use.",
+  "pullquote_by": "Executive order, Sept. 29, 2026"
+ },
+ {
+  "id": "end-of-handwritten-code",
+  "front": 2,
+  "headline": "He Put the Pencils Down. The Evidence Is Less Decisive.",
+  "deck": "David Heinemeier Hansson says his company no longer writes code by hand. Whether that makes programmers faster is a separate question, and the first careful test said no.",
+  "byline": "By The Josty Desk",
+  "dateline": "NEW YORK, Oct. 5",
+  "image": "code-screen",
+  "caption": "Source code on a screen. The argument is no longer about whether agents write it, but about who answers for it.",
+  "body": [
+   "At Rails World, David Heinemeier Hansson said “pencils down” on writing code by hand. He created Ruby on Rails and co-founded 37signals, the company behind Basecamp. After 25 years as a professional programmer, he said, he now directs coding agents instead. It is a striking account of one company’s practice, not evidence that programmers everywhere have stopped typing.",
+   "Hansson is not the only senior engineer to describe the change as a shift in the job, not just a new tool. But anecdotes from executives and engineers tell us what some teams are trying; they do not tell us whether the work is faster, safer or cheaper. That is where the evidence starts to disagree.",
+   "One conspicuous test came when Bun, a JavaScript runtime, tried to replace its Zig implementation with Rust using coding agents. Jarred Sumner, the chief executive of Bun, said the 1,009,257-line change across 2,188 files took eleven days and about $165,000 in API costs, and that a human team would have needed a year. An independent audit estimated a much larger total cost and schedule after counting human review and integration. A study of 2,981 issues found no improvement in the fix rate at the time it analyzed the rewrite; the port had not yet shipped as a stable release. Andrew Kelley, creator of Zig, called the result “a million lines of unreviewed slop.”",
+   "Supporters point to 128 reproducible bugs fixed, a binary 20 percent smaller and a runtime two to five percent faster. Both sets of numbers matter: the rewrite improved some measurable outcomes, while the cost of reviewing and maintaining it remains disputed. The fight is over what to count, the tokens or the people."
+  ],
+  "sources": [
+   {
+    "publisher": "The Decoder",
+    "date": "Sep. 2026",
+    "url": "https://the-decoder.com/ruby-on-rails-creator-dhh-says-hes-done-writing-code-by-hand/"
+   },
+   {
+    "publisher": "ExplainX",
+    "date": "Aug. 10, 2026",
+    "url": "https://www.explainx.ai/blog/dhh-fable-rust-rewrite-terminaltexteffects-11m-tokens-august-2026"
+   },
+   {
+    "publisher": "asmyshlyaev177.dev",
+    "date": "Aug. 10, 2026",
+    "url": "https://asmyshlyaev177.dev/blog/bun-rust-rewrite-bug-count"
+   },
+   {
+    "publisher": "MindPattern",
+    "date": "Jul. 27, 2026",
+    "url": "https://mindpattern.ai/s/2026-07-27-an-independent-audit-puts-the-bun-rust-rewrite-at-800k-and-86-days-behind"
+   }
+  ],
+  "pullquote": "A million lines of unreviewed slop.",
+  "pullquote_by": "Andrew Kelley, creator of Zig"
+ },
+ {
+  "id": "trillion-and-grid",
+  "front": 3,
+  "headline": "A Trillion Dollars, and a Grid That Says No",
+  "deck": "Technology companies plan to spend more than $400 billion this year building data centres. But those projects need two things in short supply: paying customers and enough electricity to power them.",
+  "byline": "By The Josty Desk",
+  "dateline": "NEW YORK, Oct. 5",
+  "image": "lead-data-centre",
+  "caption": "Server racks at NOIRLab, an astronomy laboratory. These machines process telescope data; the story is about data centres built to run AI.",
+  "body": [
+   "The largest technology companies expect to spend more than $400 billion on data-centre construction and equipment this year. Separately, Gartner forecasts $2.67 trillion in worldwide AI spending in 2026, a broader total that includes software and services as well as hardware.",
+   "The revenue comparison is less settled. One estimate pairs $690 billion of capital expenditure with $13 billion in revenue; LLM Watch’s tracker uses roughly $900 billion and $175 billion. The sources count different things, and neither is an audited industry total. They point to a financing question, not a single definitive gap.",
+   "The International Energy Agency expects electricity demand to keep rising through 2030 as transport, industry and data centres electrify. In the United States, new projects are already competing for grid connections and scarce large transformers, which can take years to deliver.",
+   "Local opposition is another constraint. Data Center Watch counted at least 75 projects worth about $130 billion blocked or delayed in the first quarter of 2026, roughly the number for all of 2025. Residents have taken the fight from zoning hearings into local campaigns."
+  ],
+  "sources": [
+   {
+    "publisher": "Gartner",
+    "date": "May 19, 2026",
+    "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-19-gartner-forecasts-worldwide-ai-spending-to-grow-47-percent-in-2026"
+   },
+   {
+    "publisher": "IEA",
+    "date": "2026",
+    "url": "https://www.iea.org/reports/electricity-2026"
+   },
+   {
+    "publisher": "Data Center Watch",
+    "date": "Q1 2026",
+    "url": "https://www.datacenterwatch.org/q1-2026"
+   },
+   {
+    "publisher": "Gartner",
+    "date": "Sep. 16, 2026",
+    "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026"
+   }
+  ]
+ },
+ {
+  "id": "asked-to-be-regulated",
+  "front": 4,
+  "headline": "The Executive Who Asked To Be Regulated",
+  "deck": "Dario Amodei published a plan that would give Washington the power to stop a model release. Washington has not thanked him for it.",
+  "byline": "By The Josty Desk",
+  "dateline": "WASHINGTON, Oct. 5",
+  "image": "us-capitol",
+  "caption": "The United States Capitol at sunrise in 2023, photographed for the House of Representatives. The essay asked this building for a power to stop a model. The building has not taken it.",
+  "body": [
+   "In June, Dario Amodei, chief executive of the AI company Anthropic, published “Policy on the AI Exponential.” He argued that the most capable models should face independent testing before release, and that government should have legal authority to stop a release that fails. Anthropic also pledged $350 million for worker-transition and research programmes; the money was not a grant to build a regulator.",
+   "The analogy is aircraft certification: prove a design safe before it carries passengers, then let an authority ground it. The essay also proposes support for displaced workers and coordination among allied democracies. It remains a proposal from a company that builds the systems it wants regulated, not a law, and not an accepted plan.",
+   "Amodei opened with a different comparison. AI and political institutions, he wrote, resemble the hobbits trying to rouse Treebeard, the slow-moving tree in “The Lord of the Rings”: a being wise enough to act and too slow to notice the forest coming down.",
+   "Several commentaries followed within days. One, by the industry analyst Ben Luong, read the essay less as a warning than as a negotiation: “the builders now know the system is failing and are trying to negotiate liability, legitimacy, and social peace.”"
+  ],
+  "sources": [
+   {
+    "publisher": "Dario Amodei",
+    "date": "Jun. 10, 2026",
+    "url": "https://darioamodei.com/post/policy-on-the-ai-exponential"
+   },
+   {
+    "publisher": "TechTimes",
+    "date": "Jun. 11, 2026",
+    "url": "https://www.techtimes.com/articles/318217/20260611/ai-regulation-push-amodei-demands-power-blocking-unsafe-models-anthropic-pledges-350-million.htm"
+   },
+   {
+    "publisher": "LinkedIn",
+    "date": "Jun. 10, 2026",
+    "url": "https://www.linkedin.com/pulse/critique-dario-amodeis-essay-policy-ai-exponential-ben-luong-gfybf"
+   }
+  ],
+  "pullquote": "The builders now know the system is failing and are trying to negotiate liability, legitimacy, and social peace.",
+  "pullquote_by": "Ben Luong"
+ },
+ {
+  "id": "reasoning-doubt",
+  "front": 5,
+  "headline": "Machines That Get the Right Answer for the Wrong Reasons",
+  "deck": "A study of 25,000 research runs found the results held up and the reasoning did not. Standard benchmarks could not see the difference.",
+  "byline": "By The Josty Desk",
+  "dateline": "NEW YORK, Oct. 5",
+  "image": "gpu-chip",
+  "caption": "An MSI GeForce RTX 2080, a consumer graphics card from an earlier generation, photographed in 2023.",
+  "body": [
+   "A paper published in April examined more than 25,000 runs of language models across eight scientific fields. The authors scored both the result and the process: did a system reach the right answer, and did it test, check and revise its work as a scientist would?",
+   "The systems sometimes produced correct results without showing those habits of scientific inquiry. The authors found the gap across task types, whether a run succeeded or failed. A benchmark that checks only the answer can therefore mistake a lucky result or flawed method for scientific understanding."
+  ],
+  "sources": [
+   {
+    "publisher": "arXiv",
+    "date": "Apr. 20, 2026",
+    "url": "https://arxiv.org/abs/2604.18805"
+   }
+  ]
+ },
+ {
+  "id": "one-person-company",
+  "front": 6,
+  "headline": "The One-Person Company Arrives, With Fine Print",
+  "deck": "Solo founders now account for more than a third of new businesses. The graveyard is growing at the same time.",
+  "byline": "By The Josty Desk",
+  "dateline": "SAN FRANCISCO, Oct. 5",
+  "image": "office-desks",
+  "caption": "A laptop, a camera and an open notebook on one wooden desk.",
+  "body": [
+   "Forbes reports that solo-founded ventures now make up more than a third of new companies, up from 23.7 percent in 2019. The pitch is simple: a founder can rent software agents for a few hundred dollars a month instead of hiring a team. But fewer employees do not by themselves show that a company can build durable products or earn lasting revenue.",
+   "The extremes draw the headlines. Polsia, an AI start-up whose founder says he runs it without employees, raised $30 million at a reported $250 million valuation. The much-repeated benchmark of a one-employee, billion-dollar company has not been publicly cleared. Pieter Levels, an independent software founder whose products include the remote-work directory Nomad List and job board Remote OK, runs a portfolio reported to earn more than $3 million a year.",
+   "The failures are quieter and far more numerous. The startup-graveyard tracker at vcbacked.co counts 390 venture-backed AI companies that shut down after raising $30.4 billion between them, about 17 percent of the companies it lists. Founders who publish post-mortems describe a consistent floor: strategy, quality control, and the judgement calls nobody delegates to a model.",
+   "Venture investors, who spent a decade funding teams on the theory that execution is hard, are now pricing the opposite bet. Whether that is a correction or a fashion will be settled by the same thing that settles every such claim: revenue."
+  ],
+  "sources": [
+   {
+    "publisher": "Forbes",
+    "date": "Aug. 3, 2026",
+    "url": "https://www.forbes.com/sites/nehamehra/2026/08/03/why-ai-agent-startups-are-becoming-the-new-solo-founder-playbook/"
+   },
+   {
+    "publisher": "Linas’s Newsletter",
+    "date": "Aug. 13, 2026",
+    "url": "https://linas.substack.com/p/one-person-company-ai-agents"
+   }
+  ]
+ }
+]

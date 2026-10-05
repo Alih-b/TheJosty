@@ -1,0 +1,125 @@
+{
+ "lead-data-centre": {
+  "title": "File:NOIRLab HQ Server Racks (6V6A0375-CC).jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/NOIRLab_HQ_Server_Racks_%286V6A0375-CC%29.jpg/1920px-NOIRLab_HQ_Server_Racks_%286V6A0375-CC%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 4.0",
+  "artist": "NOIRLab/NSF/AURA/T. Slovinsk\u00fd",
+  "page": "https://commons.wikimedia.org/wiki/File:NOIRLab_HQ_Server_Racks_(6V6A0375-CC).jpg",
+  "file": "lead-data-centre.jpg"
+ },
+ "code-screen": {
+  "title": "File:CSS code on a screen (Unsplash).jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS_code_on_a_screen_%28Unsplash%29.jpg/1920px-CSS_code_on_a_screen_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC0",
+  "artist": "Sai Kiran Anagani _imkiran",
+  "page": "https://commons.wikimedia.org/wiki/File:CSS_code_on_a_screen_(Unsplash).jpg",
+  "file": "code-screen.jpg"
+ },
+ "robot-arm": {
+  "title": "File:An architecture for a robot hierarchical control systme (IA architectureforr5002barb).pdf",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/An_architecture_for_a_robot_hierarchical_control_systme_%28IA_architectureforr5002barb%29.pdf/page1-960px-An_architecture_for_a_robot_hierarchical_control_systme_%28IA_architectureforr5002barb%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "artist": "Barbera, Anthony J.",
+  "page": "https://commons.wikimedia.org/wiki/File:An_architecture_for_a_robot_hierarchical_control_systme_(IA_architectureforr5002barb).pdf",
+  "file": "robot-arm.jpg"
+ },
+ "gpu-chip": {
+  "title": "File:2023 MSI GeForce RTX 2080 Gaming X Trio (3).jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/2023_MSI_GeForce_RTX_2080_Gaming_X_Trio_%283%29.jpg/1920px-2023_MSI_GeForce_RTX_2080_Gaming_X_Trio_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "artist": "Jacek Halicki",
+  "page": "https://commons.wikimedia.org/wiki/File:2023_MSI_GeForce_RTX_2080_Gaming_X_Trio_(3).jpg",
+  "file": "gpu-chip.jpg"
+ },
+ "trading-floor": {
+  "title": "File:Frankfurt Stock Exchange (Ank Kumar) 03.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Frankfurt_Stock_Exchange_%28Ank_Kumar%29_03.jpg/1920px-Frankfurt_Stock_Exchange_%28Ank_Kumar%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "artist": "Ank Kumar",
+  "page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_03.jpg",
+  "file": "trading-floor.jpg"
+ },
+ "eu-parliament": {
+  "title": "File:European Parliament Strasbourg Hemicycle - Diliff.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg/1920px-European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0",
+  "artist": "Diliff",
+  "page": "https://commons.wikimedia.org/wiki/File:European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg",
+  "file": "eu-parliament.jpg"
+ },
+ "us-capitol": {
+  "title": "File:2023 United States Capitol 118th Congress, sunrise.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023%20United%20States%20Capitol%20118th%20Congress,%20sunrise.jpg",
+  "license": "Public domain",
+  "artist": "U.S. House of Representatives",
+  "page": "https://commons.wikimedia.org/wiki/File:2023_United_States_Capitol_118th_Congress,_sunrise.jpg",
+  "file": "us-capitol.jpg",
+  "depicts": "The United States Capitol dome and the House wing at sunrise, 2023, trees in the foreground. No crowd and no protest."
+ },
+ "office-desks": {
+  "title": "File:Apple-camera-desk-office (24031346580).jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Apple-camera-desk-office_%2824031346580%29.jpg/1920px-Apple-camera-desk-office_%2824031346580%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC0",
+  "artist": "www.Pixel.la Free Stock Photos",
+  "page": "https://commons.wikimedia.org/wiki/File:Apple-camera-desk-office_(24031346580).jpg",
+  "file": "office-desks.jpg"
+ },
+ "lab-bench": {
+  "title": "File:Air Force Research Laboratory chemists collaborate with MIT on nanomaterial advancement with flow chemistry (7087055).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Air_Force_Research_Laboratory_chemists_collaborate_with_MIT_on_nanomaterial_advancement_with_flow_chemistry_%287087055%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "Public domain",
+  "artist": "U.S. Air Force AFRL by Jonathan Taulbee",
+  "page": "https://commons.wikimedia.org/wiki/File:Air_Force_Research_Laboratory_chemists_collaborate_with_MIT_on_nanomaterial_advancement_with_flow_chemistry_(7087055).jpg",
+  "file": "lab-bench.jpg"
+ },
+ "metal-type": {
+  "title": "File:Casse de typographe, Grandjean - mus\u00e9e Champollion.JPG",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Casse_de_typographe%2C_Grandjean_-_mus%C3%A9e_Champollion.JPG/1920px-Casse_de_typographe%2C_Grandjean_-_mus%C3%A9e_Champollion.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 3.0",
+  "artist": "VIGNERON",
+  "page": "https://commons.wikimedia.org/wiki/File:Casse_de_typographe,_Grandjean_-_mus%C3%A9e_Champollion.JPG",
+  "file": "metal-type.jpg"
+ },
+ "newsroom": {
+  "title": "File:New Orleans Item Newsroom c 1900.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/New_Orleans_Item_Newsroom_c_1900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "Public domain",
+  "artist": "Photographer not credited",
+  "page": "https://commons.wikimedia.org/wiki/File:New_Orleans_Item_Newsroom_c_1900.jpg",
+  "file": "newsroom.jpg"
+ },
+ "humanoid": {
+  "title": "File:3d-printed-humanoid-robot-manav-mumbai-techfest-2015.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/3d-printed-humanoid-robot-manav-mumbai-techfest-2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 4.0",
+  "artist": "Jasonprost",
+  "page": "https://commons.wikimedia.org/wiki/File:3d-printed-humanoid-robot-manav-mumbai-techfest-2015.jpg",
+  "file": "humanoid.jpg"
+ },
+ "classroom": {
+  "title": "File:105862 kibbutz shluchot - children in classroom PikiWiki Israel.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/105862_kibbutz_shluchot_-_children_in_classroom_PikiWiki_Israel.jpg/1920px-105862_kibbutz_shluchot_-_children_in_classroom_PikiWiki_Israel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "Public domain",
+  "artist": "Menachem Lotan",
+  "page": "https://commons.wikimedia.org/wiki/File:105862_kibbutz_shluchot_-_children_in_classroom_PikiWiki_Israel.jpg",
+  "file": "classroom.jpg"
+ },
+ "pair-programming": {
+  "title": "File:Pair programming 1.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Pair_programming_1.jpg/1920px-Pair_programming_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Lisamarie Babik",
+  "page": "https://commons.wikimedia.org/wiki/File:Pair_programming_1.jpg",
+  "file": "pair-programming.jpg",
+  "depicts": "Two men at one Apple iMac in an office with a planning wall of sticky notes. Flickr title: paired programming. Not a photograph of the METR trial."
+ },
+ "substation": {
+  "title": "File:Muurame electrical substation transformer.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Muurame%20electrical%20substation%20transformer.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Antti Lepp\u00e4nen",
+  "page": "https://commons.wikimedia.org/wiki/File:Muurame_electrical_substation_transformer.jpg",
+  "file": "substation.jpg",
+  "depicts": "An ABB transformer and switchgear inside a fenced electrical substation at Muurame, Finland, with birch trees behind. Not a data-centre site."
+ }
+}

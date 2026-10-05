@@ -1,0 +1,226 @@
+[
+ {
+  "id": "proofs-get-cheap",
+  "headline": "Proof, Once the Most Expensive Work in Computing, Gets Cheap",
+  "deck": "A cryptographer published a fully verified decompressor, a French lab shipped a proof agent, and the cost of machine-checked certainty fell through the floor.",
+  "byline": "By The Josty Desk",
+  "dateline": "NEW YORK, Oct. 5",
+  "image": "metal-type",
+  "caption": "Movable type at a letterpress. Proof is becoming something a machine sets rather than something a person carves.",
+  "body": [
+   "In July, Google security engineer Adam Langley, who helped design TLS 1.3, published a Zstandard decompressor written in Lean 4, a programming language that can check mathematical proofs. Language models generated most of its proof steps. He titled the post “We have proof automation now”, and he supplied the caveat himself: his decoder runs about ten times slower than the original C version.",
+   "The economics may be changing. A Mistral tool called Leanstral helps write Lean proofs and is released under the Apache-2.0 licence. The company says its smaller system can do some proof tasks for about one-fifteenth the cost of larger models. That is a vendor claim, but it points to the practical appeal: checked proof-writing may become cheaper to try.",
+   "The biggest claim is also the least settled. OpenAI says its agents produced a proposed solution to the Navier–Stokes existence-and-smoothness problem, a famous question about whether fluid equations can develop singularities, in 88 hours. The claim is not an accepted mathematical result: mathematician Tristan Buckmaster disputes the work’s originality, OpenAI denies using his work, and the formal proof has not received independent confirmation.",
+   "What is not in dispute is the direction of travel. Machine-checked proof is moving from a multi-year research programme to a routine artefact, which changes what can be trusted, if not yet what is true."
+  ],
+  "sources": [
+   {
+    "publisher": "ImperialViolet",
+    "date": "Jul. 26, 2026",
+    "url": "https://www.imperialviolet.org/2026/07/26/zstd-lean.html"
+   },
+   {
+    "publisher": "ExplainX",
+    "date": "Sep. 11, 2026",
+    "url": "https://explainx.ai/blog/lean-4-formal-proof-cost-collapse-navier-stokes-2026"
+   },
+   {
+    "publisher": "The Guardian",
+    "date": "Sep. 8, 2026",
+    "url": "https://www.theguardian.com/science/2026/sep/08/openai-claims-to-have-solved-maths-problem-that-stumped-humans-for-decades"
+   }
+  ],
+  "pullquote": "We have proof automation now.",
+  "pullquote_by": "Adam Langley, Google"
+ },
+ {
+  "id": "ame-labs-bet",
+  "headline": "A Billion Dollars Says the Language Model Is the Wrong Shape",
+  "deck": "Yann LeCun left Meta, raised Europe’s largest seed round and bet on world models. The mathematics is narrower than the slogan.",
+  "byline": "By The Josty Desk",
+  "dateline": "PARIS, Oct. 5",
+  "body": [
+   "Yann LeCun, Meta’s longtime chief AI scientist, left the company in 2025 to build a different kind of system. His Paris-based start-up, AMI Labs, raised $1.03 billion in March at a reported $3.5 billion pre-money valuation, Europe’s largest seed round, to pursue “world models,” systems intended to learn how the physical world changes rather than predict the next word.",
+   "The theoretical backing is precise and modest. A paper published in May, “When Does LeJEPA Learn a World Model?”, proves the architecture can recover an environment’s hidden variables (up to rotation) when they follow a Gaussian distribution and the dynamics are steady with added noise. That is a statement about when the method can work, not evidence that it does.",
+   "The same research cycle produced the reality check. A benchmark published at the end of May found current world models brittle on the tasks they are meant to solve.",
+   "LeCun has since argued, in a paper with co-authors, that the industry’s central target is misdefined. General intelligence, they write, is neither plausible nor useful as a goal, and the better aim is specialised systems that adapt. They propose a name for them: Superhuman Adaptable Intelligence, replacing the older term. It is a rare thing in this field: a founder whose marketing undersells his own paper."
+  ],
+  "sources": [
+   {
+    "publisher": "AMI Labs",
+    "date": "2026",
+    "url": "https://amilabs.xyz/updates"
+   },
+   {
+    "publisher": "arXiv",
+    "date": "May 25, 2026",
+    "url": "https://arxiv.org/abs/2605.26379"
+   },
+   {
+    "publisher": "TechTimes",
+    "date": "May 31, 2026",
+    "url": "https://www.techtimes.com/articles/317452/20260531/yann-lecuns-world-model-earns-formal-proof-benchmark-finds-current-models-brittle.htm"
+   },
+   {
+    "publisher": "MarkTechPost",
+    "date": "Mar. 7, 2026",
+    "url": "https://www.marktechpost.com/2026/03/07/yann-lecuns-new-ai-paper-argues-agi-is-misdefined-and-introduces-superhuman-adaptable-intelligence-sai-instead/"
+   }
+  ]
+ },
+ {
+  "id": "open-weights-border",
+  "headline": "The Open Weights Cross the Border",
+  "deck": "Chinese labs closed most of the distance to the frontier this year, and brought licences few of their new users had read.",
+  "byline": "By The Josty Desk",
+  "dateline": "BEIJING, Oct. 5",
+  "body": [
+   "Chinese AI lab DeepSeek released V4 in July. Its Flash version makes model weights available under the MIT licence, and the company reported a score of 80.6 percent on SWE-bench, a test of AI systems fixing real software issues. Those are separate measures: a permissive licence governs reuse, while a benchmark score says how the model performed on one test.",
+   "Moonshot, another Chinese AI company, released Kimi K3 as downloadable model weights. The files total about 1.56 terabytes, split into 96 pieces, large enough that downloading and running the model is itself a substantial infrastructure project.",
+   "“Open weights” does not necessarily mean open-source software. Kimi’s licence requires some resellers above a $20 million revenue threshold to seek a separate agreement, and sets attribution terms for interfaces. An audit of 30 models marketed as open found that access to weights can still come with conditions; readers should check the licence rather than infer freedom from the label.",
+   "Market analysts put the gap between the best open model and the closed frontier at a few months, narrower than the export controls were meant to keep."
+  ],
+  "sources": [
+   {
+    "publisher": "felloai",
+    "date": "Jul. 16, 2026",
+    "url": "https://felloai.com/deepseek-v4/"
+   },
+   {
+    "publisher": "DigitalApplied",
+    "date": "Jul. 27, 2026",
+    "url": "https://www.digitalapplied.com/blog/kimi-k3-open-weights-shipped-license-restrictions-2026"
+   },
+   {
+    "publisher": "DigitalApplied",
+    "date": "Aug. 16, 2026",
+    "url": "https://www.digitalapplied.com/blog/open-weight-model-licence-audit-2026"
+   }
+  ]
+ },
+ {
+  "id": "kernel-draws-line",
+  "headline": "A Kernel Draws the Line on Agent-Written Code",
+  "deck": "The Linux project will accept code written by a machine. It will not let a machine sign for it.",
+  "byline": "By The Josty Desk",
+  "dateline": "NEW YORK, Oct. 5",
+  "body": [
+   "The Linux kernel, the software at the heart of Linux operating systems, published rules for AI-assisted contributions in April. A contributor’s “Signed-off-by” line is a personal certification of the project’s origin and licensing rules, so an AI cannot supply it. The kernel asks contributors to identify tools with an “Assisted-by” tag instead.",
+   "The guidance also warns maintainers to scrutinize patches an AI writes in the same session in which it found a bug. The concern is straightforward: the tool that proposed the fix should not be treated as its own independent reviewer.",
+   "The Rust project adopted comparable guidance. Both projects allow developers to use assistants, but keep responsibility with the human contributor. The rule is simple: use whatever helps, then sign your own name.",
+   "It is a narrower response than the debate around it. Where executives argue about whether hand-written code is finished, a file in a source tree settles who is responsible when it breaks."
+  ],
+  "sources": [
+   {
+    "publisher": "Linux kernel",
+    "date": "Apr. 2026",
+    "url": "https://docs.kernel.org/process/coding-assistants.html"
+   },
+   {
+    "publisher": "Development Today",
+    "date": "Apr. 13, 2026",
+    "url": "https://developmentstoday.com/news/linux-kernel-ai-assisted-code-policy-humans-responsible"
+   },
+   {
+    "publisher": "FOSSID",
+    "date": "2026",
+    "url": "https://fossid.com/articles/linux-kernel-ai-coding-policy-enterprise-accountability/"
+   }
+  ]
+ },
+ {
+  "id": "long-horizon-agents",
+  "kicker": "Benchmarks",
+  "headline": "The Longer the Agent Works, the Harder It Is to Pass",
+  "deck": "Two new terminal benchmarks grade long workflows rather than a final answer. Their best scores depend on the harness, the task and how much partial credit counts.",
+  "byline": "By The Josty Desk",
+  "dateline": "NEW YORK, Oct. 5",
+  "body": [
+   "A benchmark can make an agent look capable by asking it a short question and checking only the final answer. Two papers this year set a harder test: long jobs in a real command-line environment, with progress and side effects counted along the way.",
+   "WildClawBench gives 19 models 60 human-written tasks inside reproducible containers, using actual command-line agents and tools. The authors report that Anthropic’s Claude Opus 4.7, run with a harness called OpenClaw, reached 62.2 percent overall. Change the harness alone, they found, and one model’s score moved by as much as 18 points. A score, it turns out, can belong partly to the scaffolding around the model.",
+   "Long-Horizon-Terminal-Bench breaks 46 tasks into graded steps and runs them for minutes or hours. Its authors report a 15.2 percent pass rate for the strongest model when partial credit is allowed at a 0.95 threshold, and 10.9 percent when only a perfect score counts. Across the models, those figures fall to 4.3 and 1.7 percent. The average run used 9.9 million tokens and lasted about 85 minutes.",
+   "Neither paper measures every deployed agent, and both are benchmark studies rather than independent audits of workplaces. They do show why the headline score needs its conditions attached: task length, runtime, harness and grading rule all change what ‘success’ means."
+  ],
+  "sources": [
+   {
+    "publisher": "arXiv — WildClawBench",
+    "date": "May 11, 2026",
+    "url": "https://arxiv.org/abs/2605.10912"
+   },
+   {
+    "publisher": "arXiv — Long-Horizon-Terminal-Bench v2",
+    "date": "Jul. 13, 2026",
+    "url": "https://arxiv.org/abs/2607.08964v2"
+   }
+  ]
+ },
+ {
+  "id": "poisoned-skills",
+  "headline": "A Poisoned Skill File, and 1,184 More Like It",
+  "deck": "A popular streamer published a deliberately poisoned agent skill. Researchers had already counted more than a thousand like it.",
+  "byline": "By The Josty Desk",
+  "dateline": "NEW YORK, Oct. 5",
+  "body": [
+   "In June, the programming streamer known as ThePrimeagen published a poisoned “skill”, a reusable instruction file for AI coding agents, and watched his followers install it without reading the source. He had spent the year arguing that AI coding tools are overrated; the demonstration was aimed less at the tools than at the trust placed in them.",
+   "Security researchers had already documented the problem at scale. The Cloud Security Alliance counted more than 1,184 malicious skills in one agent marketplace between February and May, distributing a macOS credential stealer. A separate note described context poisoning, in which payloads hide in documentation examples and are reproduced by the agent during ordinary work, bypassing protections that block explicit instructions.",
+   "The structural difficulty is that an agent with broad execution permissions behaves like a remote shell, and the ecosystem that distributes instructions to it is young. There is no signing requirement, no provenance standard, and no equivalent of the package registries that learned these lessons the hard way.",
+   "Practitioners now describe skill files the way engineers once described shell scripts from strangers: convenient, useful, and not to be run unread."
+  ],
+  "sources": [
+   {
+    "publisher": "Superframeworks",
+    "date": "Jun. 20, 2026",
+    "url": "https://superframeworks.com/articles/theprimeagen-poisoned-ai-skill-supply-chain-warning"
+   },
+   {
+    "publisher": "Cloud Security Alliance",
+    "date": "Jun. 24, 2026",
+    "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-skill-supply-chain-attacks-20260624-csa/"
+   },
+   {
+    "publisher": "AgentPatterns",
+    "date": "2026",
+    "url": "https://www.agentpatterns.ai/security/skill-supply-chain-poisoning/"
+   }
+  ]
+ },
+ {
+  "id": "argon-gate",
+  "headline": "Google’s Frontier Model Arrives Through a Gate Google Keeps",
+  "deck": "Argon’s price is published, its availability is not: access runs through a company programme with more than 650 partners, and no date has been set for general release.",
+  "byline": "By The Josty Desk",
+  "dateline": "MOUNTAIN VIEW, Calif., Oct. 5",
+  "body": [
+   "Google announced Gemini 4 Argon on 30 September, describing it as a new frontier model. The company said it was “rolling out to a set of trusted cyber defenders through our Fairwind Program”. No date has been set for general availability.",
+   "Fairwind is Google’s own gate. Google describes the programme as one that “gives high-priority defenders (like governments, healthcare providers, and telecommunications services) early access to advanced models”, and says it currently works with more than 650 partners globally.",
+   "Within that group, access is narrower still. Google states that “A set of Fairwind Program partners get exclusive access to Gemini 4 Argon, and can use this model in CodeMender”, and that those partners “may only grant Gemini 4 Argon access to internal cybersecurity, incident response, or penetration testing teams”.",
+   "SiliconANGLE reported on the launch day that outside Google’s own teams, only members of the Fairwind Program can use Argon for now. The programme opened on 3 September with the smaller Gemini 3.8 Flash Cyber model and has since signed up more than 650 organisations, including CrowdStrike Holdings Inc. and Palo Alto Networks Inc.",
+   "The price list is public, and framed as temporary. Google said Argon “will launch at an introductory price of $2 per million input tokens and $10 per million output tokens, with cached input tokens priced at 95% off input token price”. A footnote to the announcement gives the rate afterwards: $4 per 1M input tokens and $20 per 1M output tokens.",
+   "A paragraph later Google sets out what a general release would look like: the cohort of cyber defenders and trusted testers is evaluating the model before it reaches “developers, enterprises, and consumers, starting with paid API customers and Google AI Ultra subscribers”. No date is attached to that either.",
+   "Ars Technica reported on 30 September that the model was still in limited testing while API pricing had already been announced. It gave the same introductory rates: $2 per million input tokens, $10 per million output tokens, and cached input tokens discounted 95 percent.",
+   "Google’s own benchmark figure for Argon is 77.9 percent on DeepSWE v1.1. That figure comes from Google and has no independent verification.",
+   "Google describes the release as phased. It said: “Safely releasing frontier capabilities at this level requires a phased approach. We are actively engaged in the U.S. government's voluntary process for pre-release model access while we gradually expand access.”"
+  ],
+  "sources": [
+   {
+    "publisher": "Google",
+    "date": "Sep. 30, 2026",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+   },
+   {
+    "publisher": "Google DeepMind",
+    "date": "2026",
+    "url": "https://deepmind.google/fairwind-program/"
+   },
+   {
+    "publisher": "SiliconANGLE",
+    "date": "Sep. 30, 2026",
+    "url": "https://siliconangle.com/2026/09/30/googles-new-frontier-ai-model-gemini-4-argon-goes-to-cybersecurity-defenders-first/"
+   }
+  ],
+  "pullquote": "A set of Fairwind Program partners get exclusive access to Gemini 4 Argon, and can use this model in CodeMender.",
+  "pullquote_by": "Google DeepMind, Fairwind Program",
+  "image": "robot-arm",
+  "caption": "A scanned page from a report on robotic arm control, reproduced as an archival illustration; the model it accompanies is software."
+ }
+]

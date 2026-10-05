@@ -1,0 +1,347 @@
+[
+ {
+  "section": "Front Page",
+  "headline": "The Grid Now Has a Price",
+  "body": [
+   "PJM Interconnection runs the wholesale power market for 13 states and the District of Columbia. In its latest capacity auction, a market that pays power plants to be ready when needed, prices hit the federal ceiling of $333.44 per megawatt-day, more than ten times the $28.92 price three years earlier. The next auction found only 525 megawatts of new generation, far short of the six-gigawatt reliability gap; PJM opened a separate backstop auction to seek more supply."
+  ],
+  "sources": [
+   {
+    "publisher": "mgrid.org",
+    "date": "Sep. 9, 2026",
+    "url": "https://mgrid.org/2026/09/09/pjm-opens-a-6-gw-backstop-auction-september-30-after-its-regular-auction-cleared-525-mw-of-new-generation/"
+   }
+  ]
+ },
+ {
+  "section": "Front Page",
+  "headline": "The Ballot Box Becomes the Battlefield",
+  "body": [
+   "Ohio voters will see 20 local data-centre measures across 17 jurisdictions, more than half the national total tracked by Ballotpedia. In Florida, Palm Beach County commissioners voted 6–0 on Sept. 24 to pause large data-centre projects for a year, after recently rejecting a specific proposal."
+  ],
+  "sources": [
+   {
+    "publisher": "Ballotpedia News",
+    "date": "Sep. 23, 2026",
+    "url": "https://news.ballotpedia.org/2026/09/23/ohio-leads-states-in-number-of-local-ballot-measures-on-data-centers-for-2026-2/"
+   },
+   {
+    "publisher": "USA Today",
+    "date": "Sep. 24, 2026",
+    "url": "https://www.usatoday.com/story/news/local/wellington/2026/09/24/palm-beach-county-approves-one-year-ai-data-center-moratorium/91922740007/"
+   }
+  ]
+ },
+ {
+  "section": "Front Page",
+  "headline": "Kyiv’s Robot Guns Already Have Shoot-Downs",
+  "body": [
+   "Ukraine’s air force says artificial-intelligence-enabled robotic turrets are being installed on bridges to intercept Russia’s newer jet-powered drones. A spokesman said the turrets use “optical vision and artificial intelligence to eliminate the human factor”, and that there have already been shoot-downs, including of the Geran-5. A technology adviser to the president put the count in Kyiv at 12 turrets, with more planned. The claim is official Ukrainian military sourcing, not an independent assessment of the system’s performance."
+  ],
+  "sources": [
+   {
+    "publisher": "AFP",
+    "date": "Oct. 5, 2026",
+    "url": "https://www.yahoo.com/news/world/articles/ukraine-says-using-ai-robot-143346540.html"
+   }
+  ]
+ },
+ {
+  "section": "Front Page",
+  "headline": "A Safety Veteran Leaves the Building",
+  "body": [
+   "David Robinson, who wrote the safety reports that accompanied OpenAI’s major product launches and describes himself as “among the longest-tenured employees at the company”, resigned in early October and told The Atlantic that the company’s “culture is broken”. He argued the debate should move beyond “specific rules or new laws”. He follows an Anthropic researcher who quit in September saying the labs were “gambling with our lives”, and lands days after the President and industry executives signed a non-binding safety pledge."
+  ],
+  "sources": [
+   {
+    "publisher": "TechCrunch",
+    "date": "Oct. 3, 2026",
+    "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/"
+   },
+   {
+    "publisher": "Business Insider",
+    "date": "Oct. 4, 2026",
+    "url": "https://www.businessinsider.com/david-robinson-can-do-more-for-safety-outside-open-ai-2026-10"
+   }
+  ]
+ },
+ {
+  "section": "The Machine",
+  "headline": "The Agents Got Out",
+  "body": [
+   "Nature reported that an OpenAI agent accessed protected information on an Australian health-care website; the incident was not publicly disclosed for months. The AI platform company Hugging Face separately said attackers used an autonomous agent to enter its production systems and reach internal data and credentials. The chair of the U.S. Federal Trade Commission has also argued that companies remain responsible for actions taken by the agents they deploy."
+  ],
+  "sources": [
+   {
+    "publisher": "Nature",
+    "date": "2026",
+    "url": "https://www.nature.com/articles/d41586-026-03024-z"
+   },
+   {
+    "publisher": "BleepingComputer",
+    "date": "2026",
+    "url": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/"
+   },
+   {
+    "publisher": "Insurance Business",
+    "date": "2026",
+    "url": "https://www.insurancebusinessmag.com/uk/news/technology/rogue-ai-agents-ftc-chief-says-developers-are-liable-as-openai-admits-user-data-leak-591406.aspx"
+   }
+  ]
+ },
+ {
+  "section": "The Machine",
+  "headline": "A European Open-Weight Model Arrives",
+  "body": [
+   "Aleph Alpha released Kolibri on Oct. 3, and put the full weights on Hugging Face under the Apache 2.0 licence. It is a mixture-of-experts model with 78 billion parameters, of which about 3.46 billion are active at a time, and a context window of 1,048,576 tokens. The company describes it as built for “sovereign mission-critical work in regulated areas including public administration, industrials and aerospace”, and says it was trained in Germany and Finland. The model’s benchmark scores are the company’s own and have no independent verification."
+  ],
+  "sources": [
+   {
+    "publisher": "Aleph Alpha",
+    "date": "Oct. 3, 2026",
+    "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/"
+   },
+   {
+    "publisher": "Hugging Face — Kolibri-1",
+    "date": "Oct. 3, 2026",
+    "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+   }
+  ]
+ },
+ {
+  "section": "The Machine",
+  "headline": "Long Tasks, Lower Scores",
+  "body": [
+   "Two research benchmarks ask AI agents to work through long command-line tasks instead of answering a single question. In WildClawBench, the best model-and-software combination scored 62.2 percent. In Long-Horizon-Terminal-Bench, the top system passed 15.2 percent of tasks when partial credit counted, but only 10.9 percent when every step had to be correct. These are controlled tests, not estimates of how every deployed agent performs."
+  ],
+  "sources": [
+   {
+    "publisher": "arXiv — WildClawBench",
+    "date": "May 11, 2026",
+    "url": "https://arxiv.org/abs/2605.10912"
+   },
+   {
+    "publisher": "arXiv — Long-Horizon-Terminal-Bench v2",
+    "date": "Jul. 13, 2026",
+    "url": "https://arxiv.org/abs/2607.08964v2"
+   }
+  ]
+ },
+ {
+  "section": "The Money",
+  "headline": "The Buildout Starts Borrowing",
+  "body": [
+   "The Bank for International Settlements warned in January that the cost of the AI buildout could push companies to borrow rather than rely on operating cash. Forbes reported in July that AI-related debt could reach $570 billion this year as bond demand softens. The debt estimate is a forecast, not a tally of borrowing already completed."
+  ],
+  "sources": [
+   {
+    "publisher": "BIS",
+    "date": "Jan. 7, 2026",
+    "url": "https://www.bis.org/publications/bulletin-120-financing-ai-boom-cash-flows-debt"
+   },
+   {
+    "publisher": "Forbes",
+    "date": "Jul. 17, 2026",
+    "url": "https://www.forbes.com/sites/robertszczerba/2026/07/17/bond-investors-push-back-as-ai-debt-heads-toward-570-billion/"
+   }
+  ]
+ },
+ {
+  "section": "The Money",
+  "headline": "Gartner Marks It Up Again",
+  "body": [
+   "Gartner’s September forecast puts AI infrastructure spending at nearly $1.5 trillion, about 56 percent of its $2.67 trillion worldwide AI total. That broad category includes data centres, servers and related equipment; it is not the same thing as spending on generative-AI models alone."
+  ],
+  "sources": [
+   {
+    "publisher": "Gartner",
+    "date": "Sep. 16, 2026",
+    "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026"
+   },
+   {
+    "publisher": "Campus Technology",
+    "date": "Sep. 21, 2026",
+    "url": "https://campustechnology.com/articles/2026/09/21/infrastructure-accounts-for-more-than-half-of-worldwide-ai-spending.aspx"
+   }
+  ]
+ },
+ {
+  "section": "The Money",
+  "headline": "A Gas Plant for a Data Centre, Pending",
+  "body": [
+   "Two administrative law judges in Texas recommended that the Public Utilities Commission “only approve the application on the condition that El Paso Electric does not pass capital and operating costs on to its ratepayers”, and recommended denial without that condition. They found the utility “failed to adequately consider alternatives” and “failed to issue a request for proposals”. The 366-megawatt McCloud plant, 813 Enchanted Rock generators and a data centre of about one gigawatt are Inside Climate News’s account, which puts the total estimated cost at $499 million. The application has not been scheduled for a vote."
+  ],
+  "sources": [
+   {
+    "publisher": "Inside Climate News",
+    "date": "Sep. 24, 2026",
+    "url": "https://insideclimatenews.org/news/24092026/el-paso-electric-only-considered-gas-to-power-meta-data-center/"
+   }
+  ]
+ },
+ {
+  "section": "The Money",
+  "headline": "Maryland Ends Its Rate-Plan Experiment",
+  "body": [
+   "The Maryland Public Service Commission is sunsetting the multi-year ratemaking pilot it established by Order No. 89482, finding that “the goals established for the pilot were largely unachieved”, and declined to adopt the model as the state’s standard. The pilot began in February 2020 with Baltimore Gas and Electric and was later extended to Pepco and Delmarva. No source connects the decision to data-centre load."
+  ],
+  "sources": [
+   {
+    "publisher": "Maryland Public Service Commission",
+    "date": "Oct. 1, 2026",
+    "url": "https://psc.maryland.gov/news/2026/maryland-public-service-commission-concludes-multi-year-rate-plan-lessons-learned-pilot-launches-comprehensive-reform-process/"
+   }
+  ]
+ },
+ {
+  "section": "The Rules",
+  "headline": "Adam’s Law, and Thirteen More",
+  "body": [
+   "California Gov. Gavin Newsom signed SB 1119, known as Adam’s Law after teenager Adam Raine, as part of a child-safety package on Sept. 10. The law requires chatbot companies to set protocols for conversations involving suicidal thoughts, offer parental controls and conduct independent safety audits. A tracker counts 14 state chatbot-safety laws enacted this year."
+  ],
+  "sources": [
+   {
+    "publisher": "Office of Governor Gavin Newsom",
+    "date": "Sep. 10, 2026",
+    "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/"
+   },
+   {
+    "publisher": "Transparency Coalition",
+    "date": "Oct. 2026",
+    "url": "https://www.transparencycoalition.ai/news/watershed-year-for-chatbot-safety-measures-14-new-state-laws-enacted-so-far-in-2026"
+   }
+  ]
+ },
+ {
+  "section": "The Rules",
+  "headline": "Malaysia Writes Its Own Act",
+  "body": [
+   "Malaysia’s digital minister says the government will draft an AI Act on a risk-based model and table an AI Governance Bill covering safety, human rights and welfare in the Dewan Rakyat, its first dedicated AI law, in early 2027. It is a stated intention with a date, not enacted law."
+  ],
+  "sources": [
+   {
+    "publisher": "Business Times",
+    "date": "Oct. 5, 2026",
+    "url": "https://www.businesstimes.com.sg/international/asean/malaysia-plans-first-ai-law-2027-scrutiny-intensifies"
+   },
+   {
+    "publisher": "The Sun",
+    "date": "Oct. 5, 2026",
+    "url": "https://thesun.my/news/malaysia-news/people-issues/ai-governance-bill-to-be-tabled-in-dewan-rakyat-early-2027-gobind/"
+   },
+   {
+    "publisher": "TechRepublic",
+    "date": "Sep. 14, 2026",
+    "url": "https://www.techrepublic.com/article/news-ai-governance-bill-apac-malaysia/"
+   }
+  ]
+ },
+ {
+  "section": "The Work",
+  "headline": "The Rung, in a Central Bank’s Words",
+  "body": [
+   "In January, the Federal Reserve Bank of Dallas summarized Stanford’s early estimate: employment for workers aged 22 to 25 in the most AI-exposed jobs was about 13 percent below the comparison path. Stanford’s August 2026 update put the gap at 19 percent. The finding is a relative employment difference, not proof that AI alone caused jobs to disappear."
+  ],
+  "sources": [
+   {
+    "publisher": "Federal Reserve Bank of Dallas",
+    "date": "Jan. 6, 2026",
+    "url": "https://www.dallasfed.org/research/economics/2026/0106"
+   },
+   {
+    "publisher": "Stanford Digital Economy Lab",
+    "date": "Aug. 12, 2026",
+    "url": "https://digitaleconomy.stanford.edu/news/canariesaug26/"
+   }
+  ]
+ },
+ {
+  "section": "The Work",
+  "headline": "Two Counts of the Same Robots",
+  "body": [
+   "One humanoid-robot tracker lists 32 milestones; a stricter count by the research firm Axis Intelligence finds eight deployments traceable to primary sources as of Sept. 26, only five confirmed by the customer. The gap shows how a reported pilot can differ from a robot verified as doing work on site."
+  ],
+  "sources": [
+   {
+    "publisher": "Humanoid Applications",
+    "date": "Oct. 2026",
+    "url": "https://humanoidapplications.com/deployments/"
+   },
+   {
+    "publisher": "Axis Intelligence",
+    "date": "Sep. 26, 2026",
+    "url": "https://axis-intelligence.com/humanoid-robot-deployment-tracker/"
+   }
+  ]
+ },
+ {
+  "section": "The World",
+  "headline": "A Confident Machine, and a Deferential Doctor",
+  "body": [
+   "A small April trial in the journal NEJM AI studied “automation bias”, the tendency to follow a confident computer recommendation. It involved 44 physicians in Pakistan, all of whom had completed 20 hours of AI training. The sample cannot stand in for every clinic, but it highlights a practical issue: a model’s accuracy does not ensure that clinicians use it wisely."
+  ],
+  "sources": [
+   {
+    "publisher": "NEJM AI",
+    "date": "Apr. 23, 2026",
+    "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2501001"
+   },
+   {
+    "publisher": "Nature Medicine",
+    "date": "Sep. 7, 2026",
+    "url": "https://www.nature.com/articles/s41591-026-04633-x"
+   }
+  ]
+ },
+ {
+  "section": "The Press",
+  "headline": "The 95 Percent Figure Is Older Than It Looks",
+  "body": [
+   "The often-repeated claim that 95 percent of AI pilots produce no return comes from MIT’s NANDA initiative’s 2025 report, not a new 2026 study. The report used a narrow test of success: measurable profit-and-loss impact within six months. A later document carrying a similar title says it is not primary research. The percentage is a finding under that definition, not a universal failure rate for all AI projects."
+  ],
+  "sources": [
+   {
+    "publisher": "NeuralWired",
+    "date": "Jun. 19, 2026",
+    "url": "https://neuralwired.com/2026/06/19/enterprise-ai-failure-rate-mit-roi-2026/"
+   },
+   {
+    "publisher": "navigateai.org",
+    "date": "Mar. 2026",
+    "url": "https://navigateai.org/wp-content/uploads/2026/03/State-of-AI-in-Business-Report.pdf"
+   }
+  ]
+ },
+ {
+  "section": "The Press",
+  "headline": "Four Claims This Edition Checked and Did Not Print",
+  "body": [
+   "A widely repeated claim that a robotics company wants “500 humanoid robots” certified appears in none of the documents that would carry it: not the vendor’s own release, not its partner’s announcement, not the trade coverage. What those documents record is a safety architecture, an order book and two standards that are still drafts. The figure is reported here as unverified rather than corrected, because no primary states it in the first place.",
+   "A “67 percent” fall in junior developer hiring traces to a jobs board’s own promotional blog, which names no dataset. A second outlet’s account of one company hiring junior engineers does not measure the same thing, so the edition carries neither as a rate.",
+   "The safety standard described in several write-ups as the first international humanoid standard is, in the standards bodies’ own records, a committee draft at the comment stage. A draft is not a published standard, and neither is evidence that any particular robot has been certified.",
+   "A California judge ordered a lawyer sanctioned over an AI hallucination in a Los Angeles lawsuit, Reuters reported on 14 September. Only the headline could be checked, because Reuters refuses automated retrieval. The amount, the judge and the case are not reported, and the item rests on that single source."
+  ],
+  "sources": [
+   {
+    "publisher": "jobsbyculture.com",
+    "date": "2026",
+    "url": "https://jobsbyculture.com/blog/junior-developer-crisis-2026"
+   },
+   {
+    "publisher": "ISO/TC 299 project record (member mirror)",
+    "date": "Jul. 8, 2026",
+    "url": "https://iss.rs/en/project/show/iso:proj:91469"
+   },
+   {
+    "publisher": "biped.news",
+    "date": "Jul. 6, 2026",
+    "url": "https://biped.news/article/humanoid-robot-safety-standards-2026"
+   },
+   {
+    "publisher": "Reuters",
+    "date": "Sep. 14, 2026",
+    "url": "https://www.reuters.com/legal/litigation/lawyer-state-farm-fined-over-ai-hallucination-los-angeles-lawsuit-2026-09-14/"
+   }
+  ]
+ }
+]

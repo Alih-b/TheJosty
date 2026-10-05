@@ -1,0 +1,50 @@
+[
+ {
+  "section": "The Money",
+  "figure": "$65B",
+  "measures": "Anthropic’s annualised revenue run rate at the end of July",
+  "status": "annualised from one month, unaudited"
+ },
+ {
+  "section": "The Money",
+  "figure": "$42.3B",
+  "measures": "AI-optimised cloud infrastructure spending forecast for 2026",
+  "status": "one slice, not the whole market"
+ },
+ {
+  "section": "The Money",
+  "figure": "$2.59T",
+  "measures": "Worldwide AI spending, Gartner, May forecast, up 47 percent in a year",
+  "status": "counts software, services and hardware economy-wide; Gartner revised it to $2.67T in September"
+ },
+ {
+  "section": "The Money",
+  "figure": "$690B / $13B",
+  "measures": "Capital expenditure against revenue, one comparison in circulation",
+  "status": "definitions differ; LLM Watch counts nearer $900B and $175B"
+ },
+ {
+  "section": "The Money",
+  "figure": "1.7%",
+  "measures": "Share of revenue corporations plan to spend on AI this year",
+  "status": "up from 0.8 percent in 2025"
+ },
+ {
+  "section": "The Money",
+  "figure": "31%",
+  "measures": "American shoppers who would let an AI narrow a purchase",
+  "status": "Gartner, 322 respondents"
+ },
+ {
+  "section": "The Money",
+  "figure": "0.1×",
+  "measures": "Anthropic’s standard price for a cached input read, against a fresh input token",
+  "status": "5-minute writes cost 1.25× and one-hour writes 2×; Fable 5.1 and Mythos 5.1 reads are 2.5 percent, Opus 5.5 reads 5 percent"
+ },
+ {
+  "section": "The Money",
+  "figure": "75%",
+  "measures": "More requests Kimi handled under real workloads after Mooncake, the authors report",
+  "status": "not the 525 percent figure, which is a simulated long-context scenario"
+ }
+]

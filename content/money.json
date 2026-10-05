@@ -1,0 +1,164 @@
+[
+ {
+  "id": "anthropic-65b",
+  "headline": "Anthropic Tells Investors It Is Running at $65 Billion",
+  "deck": "The figure is an annualisation, not an audit. It is the kind of number forecasters use to price an initial public offering.",
+  "byline": "By The Josty Desk",
+  "dateline": "SAN FRANCISCO, Oct. 5",
+  "image": "trading-floor",
+  "caption": "A trading floor. Two of the largest private companies in history are moving toward public markets.",
+  "body": [
+   "Anthropic told investors that sales in July, if continued for a full year, would amount to a $65 billion annual run rate. That pace was up from about $47 billion in May and $9 billion at the end of 2025. OpenAI’s comparable run rate was reported at $40 billion.",
+   "Those are annualisations of a single month’s revenue, not audited figures, and neither company is public. Forecasters have nevertheless begun pricing the listings: one standing forecast puts Anthropic’s debut at a median of 26 October with a first-day market capitalisation near $1.8 trillion, and OpenAI’s in mid-2027.",
+   "The scale invites scepticism. Michael Burry, the investor who became famous for betting against the U.S. housing market before the 2008 financial crisis, disclosed put options, bets on a share price falling, against Palantir and Nvidia. He said in September that the AI bubble might burst sooner than he first expected, and called the industry’s new talk of slowing down self-serving ahead of possible stock listings."
+  ],
+  "sources": [
+   {
+    "publisher": "CNBC",
+    "date": "Aug. 17, 2026",
+    "url": "https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html"
+   },
+   {
+    "publisher": "FutureSearch",
+    "date": "Mar. 31, 2026",
+    "url": "https://futuresearch.ai/anthropic-openai-ipo-dates-valuations/"
+   },
+   {
+    "publisher": "CNBC",
+    "date": "Sep. 28, 2026",
+    "url": "https://www.cnbc.com/2026/09/28/michael-burry-believes-the-ai-bubble-may-burst-sooner-than-he-first-believed.html"
+   }
+  ]
+ },
+ {
+  "id": "prefix-discount",
+  "kicker": "Inference",
+  "headline": "The Discount Lives in the Prefix",
+  "deck": "Serving systems now skip the work of rereading a prompt they have already seen. On Anthropic’s standard rate a cached read costs a tenth of a fresh input, and the saving stops when the model is busy writing.",
+  "byline": "By The Josty Desk",
+  "dateline": "SAN FRANCISCO, Oct. 5",
+  "image": "substation",
+  "caption": "A transformer at the Muurame substation in Finland.",
+  "body": [
+   "When many requests begin with the same long instructions, a serving system can reuse the computation it already did to read those shared words. vLLM calls this automatic prefix caching: it keeps intermediate values from the first pass (the “key-value cache”) and skips repeated prompt-reading work. It does not speed up the second pass, when the model writes its answer. A long reply, or a prompt the system has not seen before, still takes the full time.",
+   "The price list makes the same distinction in money. Anthropic’s current documentation prices a five-minute cache write at 1.25 times the base input price and a one-hour cache write at 2 times the base input price. A cache read, on the standard multiplier, is 0.1 times the base input price. There are exceptions by model, and prompts must be long enough to qualify for caching; a short question may not qualify at all. The practical saving therefore depends on the model, the prompt length and whether requests repeat the same opening text.",
+   "Moonshot, the company behind Kimi, tests the same idea at data-centre scale. Its Mooncake system separates machines that read prompts from those that write answers, and stores reusable prompt work in CPU memory and storage rather than leaving it all on the GPU. The authors report up to a 525 percent increase in throughput against their baseline in certain simulated scenarios, while still meeting latency targets. Under real workloads they report a smaller number, and the one to remember: Kimi handled 75 percent more requests.",
+   "The 525 percent figure comes from a simulation; the 75 percent increase was reported for real Kimi workloads. They are not opposite ends of a range. Both show why repeated prompts can save resources, and why a workload full of new questions gets less benefit."
+  ],
+  "sources": [
+   {
+    "publisher": "vLLM",
+    "date": "2026",
+    "url": "https://github.com/vllm-project/vllm/blob/main/docs/features/automatic_prefix_caching.md"
+   },
+   {
+    "publisher": "Anthropic",
+    "date": "Oct. 2026",
+    "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching"
+   },
+   {
+    "publisher": "arXiv",
+    "date": "Sep. 3, 2025",
+    "url": "https://arxiv.org/abs/2407.00079"
+   }
+  ],
+  "pullquote": "APC only reduces the time of processing the queries (the prefilling phase) and does not reduce the time of generating new tokens (the decoding phase).",
+  "pullquote_by": "vLLM documentation"
+ },
+ {
+  "id": "inference-meter",
+  "headline": "The Meter Turns From Building Models to Running Them",
+  "deck": "For the first time, inference spending passed training. Enterprise budgets are growing more slowly than the headlines suggest.",
+  "byline": "By The Josty Desk",
+  "dateline": "STAMFORD, Conn., Oct. 5",
+  "body": [
+   "Gartner forecast that inference, the work of running AI models, answering prompts and powering applications, would cost $23.3 billion in 2026, more than the $19 billion spent training them. Both figures sit within a $42.3 billion market for AI-optimised cloud infrastructure, which Gartner expects to grow 96 percent.",
+   "The composition of the demand is changing with it. Gartner expects 55 percent of that cloud-infrastructure spending to support inference rather than model training. Inference is the ongoing work of answering queries and running AI applications.",
+   "Enterprise budgets are expanding more slowly than the rhetoric. Corporations plan to devote about 1.7 percent of revenue to AI this year, up from 0.8 percent in 2025, and a large majority say they will keep spending even without immediate returns.",
+   "Keep the categories separate: Gartner’s $2.67 trillion worldwide AI forecast counts software, services and hardware across the economy. The $42.3 billion figure covers one slice of cloud infrastructure; the more than $400 billion spent by hyperscale operators is capital expenditure on buildings and equipment. They measure different things and should not be added or compared as if they were equivalent."
+  ],
+  "sources": [
+   {
+    "publisher": "Gartner",
+    "date": "Aug. 10, 2026",
+    "url": "https://www.gartner.com/en/newsroom/press-releases/2026-08-10-gartner-forecasts-worldwide-artificial-intelligence-optimized-iaas-spending-to-grow-96-percent-in-2026"
+   },
+   {
+    "publisher": "Axis Intelligence",
+    "date": "Jul. 3, 2026",
+    "url": "https://axis-intelligence.com/ai-spending-statistics/"
+   },
+   {
+    "publisher": "semanticos",
+    "date": "Jun. 1, 2026",
+    "url": "https://semanticos.io/blog/ai-spending-forecasts-2026-compiled/"
+   }
+  ]
+ },
+ {
+  "id": "buyers-look",
+  "headline": "The Buyers Look, and Then They Do Not Buy",
+  "deck": "Agents are trusted to research a purchase and not to make one. The gap between those two things is the whole market.",
+  "byline": "By The Josty Desk",
+  "dateline": "NEW YORK, Oct. 5",
+  "body": [
+   "Shoppers are more willing to let an AI shopping assistant compare products than complete a purchase. GII Research’s 2026 report puts use at about 62 percent for comparison, 23 percent at checkout and 19 percent after the sale. The drop suggests people will accept help narrowing choices before they trust a system with payment or follow-up.",
+   "Gartner found the same boundary from the consumer side. In a survey of 322 American shoppers, 31 percent said they would allow an AI tool to narrow choices for a household purchase. Wanting help is not the same as delegating the decision.",
+   "Merchants are more optimistic than their customers. PayPal’s agentic commerce report found the benefit retailers expected most was access to new customers, with larger businesses more confident about personalisation and smaller ones focused on operational savings.",
+   "Payment networks have begun building the rails, with rival protocols competing to carry the transactions. The rails are being built for traffic nobody has seen."
+  ],
+  "sources": [
+   {
+    "publisher": "GII Research",
+    "date": "Apr. 22, 2026",
+    "url": "https://www.giiresearch.com/report/ysta2024211-global-ai-shopping-agents-agentic-commerce.html"
+   },
+   {
+    "publisher": "Gartner",
+    "date": "May 27, 2026",
+    "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions"
+   },
+   {
+    "publisher": "PayPal",
+    "date": "Q1 2026",
+    "url": "https://www.paypal.com/us/enterprise/agentic-commerce-report"
+   }
+  ]
+ },
+ {
+  "id": "circular-funding",
+  "headline": "The BIS Counts How Much AI Money Stays Inside AI",
+  "deck": "Between 2021 and 2025, 28.7 percent of AI firms’ investment deals by deal value had another AI firm as the target, and the BIS says the pattern increases opacity.",
+  "byline": "By The Josty Desk",
+  "dateline": "BASEL, Oct. 5",
+  "body": [
+   "The Bank for International Settlements published Bulletin No 137, “Circular relationships among AI firms”, on 1 October. The authors are Jon Frost, Rudraksh Kansal, Kumar Rishabh, Vatsala Shreeti and Leanne Si Ying Zhang. The bulletin measures how often the money flowing into an AI firm comes from another AI firm.",
+   "Its figures cover 2021 to 2025. “Between 2021 and 2025, 28.7% of artificial intelligence (AI) firms' investment deals (by deal value) involved a target company that was also an AI firm, while 55.2% of incoming investments in AI firms came from other AI firms.”",
+   "The 28.7 percent is a share of deal value, not of the number of deals. The bulletin’s PDF text puts the same figure another way: approximately 28.7 percent of investing AI firms' targets by deal value are other AI firms.",
+   "The bulletin also reports that 55.2 percent of incoming investments in AI firms came from other AI firms. Its data set counted 972 intra-AI investment relationships over the five years.",
+   "A second measure covers the AI-to-AI deals themselves. Of all such deals between 2021 and 2025, 16.1 percent by deal count and 46.4 percent by deal value also involved a commercial supply chain relationship between the investor and the target firm.",
+   "The bulletin frames the pattern in both directions. Such relationships “reflect key economic features such as the need to secure critical inputs and the presence of information asymmetries, yet they entail macroeconomic risks and increase opacity”, it says.",
+   "The findings were taken up elsewhere. The Financial Times asked whether circular financing in AI is a problem, and cryptobriefing reported the bulletin on its publication day, 1 October.",
+   "The units are worth keeping straight. The 28.7 percent is a share of deal value; the 16.1 percent is a share of deal count and the 46.4 percent a share of value."
+  ],
+  "sources": [
+   {
+    "publisher": "Bank for International Settlements",
+    "date": "Oct. 1, 2026",
+    "url": "https://www.bis.org/publications/bulletin-137-circular-relationships-among-ai-firms"
+   },
+   {
+    "publisher": "Financial Times",
+    "date": "2026",
+    "url": "https://www.ft.com/content/87875b20-4081-4511-9afe-4ee389409742"
+   },
+   {
+    "publisher": "cryptobriefing",
+    "date": "Oct. 1, 2026",
+    "url": "https://cryptobriefing.com/bis-ai-funding-circular-relationships/"
+   }
+  ],
+  "pullquote": "Between 2021 and 2025, 28.7% of artificial intelligence (AI) firms' investment deals (by deal value) involved a target company that was also an AI firm, while 55.2% of incoming investments in AI firms came from other AI firms.",
+  "pullquote_by": "BIS Bulletin No 137, 1 October 2026"
+ }
+]

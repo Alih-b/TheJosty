@@ -1,0 +1,325 @@
+/* The Josty — a broadsheet stylesheet.
+   Text, headlines and photographs. Column measures, blackletter masthead,
+   drop capitals, halftone screens and accessible page turns were researched
+   with Josty before the edition was set. */
+
+:root{
+  --ink:#1a1512;
+  --ink-soft:#3f352b;
+  --paper:#f4ecd9;
+  --paper-deep:#eadfc4;
+  --rule:#2a211a;
+  --accent:#8c1d16;
+  --muted:#6d5c47;
+  /* The * Fallback faces come from css/fallbacks.css: local font metrics matched
+     to each webfont's advance width, so the swap-in moves nothing. */
+  --serif:'Spectral', 'Spectral Fallback', Georgia, 'Times New Roman', serif;
+  --display:'Playfair Display', 'Playfair Fallback', Georgia, serif;
+  --black:'UnifrakturMaguntia', 'Fraktur Fallback', 'Old English Text MT', 'Playfair Display', serif;
+}
+*{box-sizing:border-box}
+html{font-kerning:normal;font-variant-ligatures:common-ligatures;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;scrollbar-color:#8a7050 #1c1917}
+body{
+  margin:0;padding:34px 16px 96px;min-height:100vh;
+  color:var(--ink);font-family:var(--serif);font-size:18.5px;line-height:1.62;
+  background:radial-gradient(1200px 620px at 50% -12%, #43423f, #232224 58%, #141317 100%);
+  background-attachment:fixed;
+}
+/* The dock is the desk, not a veil over the type. Text slides under it. */
+body::before{
+  content:"";position:fixed;left:0;right:0;bottom:0;height:92px;z-index:40;pointer-events:none;
+  background:linear-gradient(to bottom, rgba(20,19,23,0), #141317 22px);
+}
+::selection{background:#e7c99a;color:#1a1512}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.desk{max-width:1180px;margin:0 auto}
+.paper{
+  position:relative;padding:clamp(22px,3.4vw,54px);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,0) 24%),
+    radial-gradient(circle at 18% 8%, rgba(168,138,86,.10), transparent 58%),
+    radial-gradient(circle at 84% 94%, rgba(120,92,50,.12), transparent 55%),
+    linear-gradient(180deg,var(--paper),var(--paper-deep));
+  box-shadow:0 34px 70px rgba(0,0,0,.60), 0 1px 0 rgba(255,255,255,.5) inset;
+  overflow:hidden;
+}
+.paper::after{
+  content:"";position:absolute;inset:0;pointer-events:none;z-index:0;opacity:.42;
+  background-image:radial-gradient(rgba(58,44,28,.12) 1px, transparent 1.5px);
+  background-size:5px 5px;mix-blend-mode:multiply;
+}
+.paper > *{position:relative;z-index:1}
+
+/* ---------------- masthead ---------------- */
+.masthead{text-align:center;margin-bottom:1.15rem}
+.masthead-top{
+  display:flex;justify-content:space-between;gap:1rem;
+  font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);
+  border-bottom:2px solid var(--rule);padding-bottom:.4rem;
+}
+.masthead-grid{display:grid;grid-template-columns:228px minmax(0,1fr) 228px;gap:1rem;align-items:stretch;margin:.7rem 0 .15rem}
+.masthead-core{text-align:center;display:flex;flex-direction:column;justify-content:center}
+.nameplate{
+  font-family:var(--black);font-size:clamp(2.2rem,5.4vw,4.5rem);
+  line-height:.98;margin:0;font-weight:400;text-shadow:0 1px 0 rgba(255,255,255,.5);
+}
+.tagline{font-size:.75rem;letter-spacing:.28em;text-transform:uppercase;color:var(--muted);margin-top:.25rem}
+.masthead-note{font-size:.66rem;color:var(--muted);margin:.3rem 0 0;letter-spacing:.02em}
+.masthead-note a{color:inherit;text-decoration:none;border-bottom:1px solid rgba(43,33,26,.4)}
+.masthead-note a:hover{color:var(--accent);border-color:var(--accent)}
+.ear{border:1px solid var(--rule);padding:.5rem .55rem;background:rgba(255,255,255,.22);text-align:left}
+.ear-kick{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);border-bottom:1px solid rgba(43,33,26,.5);padding-bottom:.2rem;margin-bottom:.28rem}
+.ear-head{display:block;font-family:var(--display);font-weight:900;font-size:.84rem;line-height:1.32;color:var(--ink);text-decoration:none;border:0;text-wrap:balance}
+.ear-head:hover{color:var(--accent)}
+.dateline{
+  display:flex;justify-content:space-between;gap:1rem;margin-top:.65rem;padding:.3rem 0;
+  border-top:1px solid var(--rule);border-bottom:3px double var(--rule);
+  font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);
+}
+
+/* ---------------- page furniture ---------------- */
+.page-head{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;border-bottom:2px solid var(--rule);margin:.2rem 0 1rem;padding-bottom:.3rem}
+.page-head .section{font-family:var(--display);font-weight:900;font-size:.86rem;text-transform:uppercase;letter-spacing:.2em}
+.page-head .folio{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.section-flag{text-align:center;margin:.05rem 0 .65rem}
+.section-flag h2{font-family:var(--black);font-size:clamp(1.35rem,2.4vw,1.85rem);margin:0;font-weight:400;letter-spacing:.01em}
+.section-flag p{margin:.2rem auto 0;max-width:40rem;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);text-wrap:balance}
+.rule-thin{border:0;border-top:1px solid rgba(43,33,26,.5);margin:1.4rem 0}
+.rule-fat{border:0;border-top:3px solid var(--rule);margin:1.4rem 0 .9rem}
+
+/* ---------------- stories ---------------- */
+.story{margin:0 0 1.6rem}
+.story.lead{margin-bottom:1.2rem}
+.kicker{font-size:.6rem;letter-spacing:.26em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:.2rem}
+h2.headline{font-family:var(--display);font-weight:900;line-height:1.06;margin:.1rem 0 .4rem;letter-spacing:-.004em;text-wrap:pretty}
+h2.hl-lead{font-size:clamp(1.85rem,3.5vw,2.55rem);text-wrap:balance}
+/* Playfair's dollar sign at 900 weight collides with the next digit. */
+.currency{font-family:var(--serif);font-weight:600;font-size:.68em;letter-spacing:0;margin-right:.05em;position:relative;top:-.06em}
+h2.hl-a{font-size:clamp(1.3rem,2.4vw,1.7rem)}
+h2.hl-b{font-size:1.16rem;line-height:1.14}
+.deck{font-style:italic;color:var(--ink-soft);margin:.1rem 0 .6rem;font-size:1.08rem;line-height:1.46;text-wrap:pretty}
+.byline{
+  font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);
+  border-top:1px solid rgba(43,33,26,.35);border-bottom:1px solid rgba(43,33,26,.35);
+  padding:.24rem 0;margin:.35rem 0 .7rem;
+}
+.dateline-inline{color:var(--ink-soft);margin-left:.5rem}
+.body{column-count:3;column-gap:1.7rem;column-rule:1px solid rgba(43,33,26,.32)}
+.body.two{column-count:2}
+/* Justification needs a measure of roughly 40+ characters. Hyphenation is held
+   back so the page does not read as a wall of hyphen breaks. */
+.body p{
+  margin:0 0 .8rem;text-align:justify;hyphens:auto;
+  -webkit-hyphenate-limit-chars:9 4 4;hyphenate-limit-chars:9 4 4;hyphenate-limit-lines:2;
+  text-wrap:pretty;word-spacing:-.01em;
+}
+.body p + p{text-indent:1.1em}
+/* The front page runs two stories side by side, so each story's body would fall
+   to ~30 characters — far too narrow to justify. Those columns set ragged right
+   instead, which keeps the word spacing even at a narrow measure. */
+.front-grid .body{text-align:left}
+.front-grid .body p{text-align:left;word-spacing:normal}
+/* A drop cap shortens the first lines. Justifying them opens rivers
+   ("D avid    Heinemeier"). The first paragraph sets ragged right. */
+.body.drop > p.first{text-align:left;word-spacing:normal}
+.body.drop > p.first::first-letter{
+  font-family:var(--black);float:left;font-size:3.7em;line-height:.74;
+  padding:.04em .08em 0 0;color:var(--accent);
+}
+@supports (initial-letter:3) or (-webkit-initial-letter:3){
+  .body.drop > p.first::first-letter{float:none;initial-letter:3;-webkit-initial-letter:3;font-size:1em;padding:0 .12em 0 0;line-height:1}
+}
+
+/* ---------------- pull quote ---------------- */
+.pull{
+  column-span:all;-webkit-column-span:all;break-inside:avoid;
+  margin:.5rem 0 .95rem;padding:.5rem 0 .45rem;
+  border-top:2px solid var(--rule);border-bottom:1px solid rgba(43,33,26,.45);
+  text-align:center;
+}
+.pull p{
+  font-family:var(--display);font-style:italic;font-weight:400;
+  font-size:clamp(1.08rem,1.9vw,1.42rem);line-height:1.28;color:var(--ink);margin:0;
+  text-indent:0;
+}
+.pull p::before{content:"\201C";color:var(--accent);margin-right:.06em}
+.pull p::after{content:"\201D";color:var(--accent);margin-left:.06em}
+.pull cite{display:block;margin-top:.28rem;font-style:normal;font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+
+/* ---------------- what would settle it ---------------- */
+.settle{border-top:3px double var(--rule);margin-top:1.5rem;padding-top:.7rem}
+.settle-head{
+  font-family:var(--display);font-weight:900;font-size:1.02rem;text-transform:uppercase;
+  letter-spacing:.2em;color:var(--accent);margin:0 0 .6rem;text-align:center;
+}
+.settle-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.7rem 1.6rem}
+.settle-item{border-top:1px solid rgba(43,33,26,.45);padding-top:.4rem}
+.settle-label{
+  display:block;font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:.18rem;
+}
+.settle-item p{margin:0;font-size:.9rem;line-height:1.46;font-style:italic;text-align:left}
+
+/* ---------------- numbers on the record ---------------- */
+.numbers{border-top:3px double var(--rule);margin-top:1.5rem;padding-top:.7rem}
+.numbers-head{
+  font-family:var(--display);font-weight:900;font-size:1.02rem;text-transform:uppercase;
+  letter-spacing:.2em;color:var(--accent);margin:0 0 .55rem;text-align:center;
+}
+.numbers-table{width:100%;border-collapse:collapse;font-size:.86rem;line-height:1.42}
+.numbers-table tr{border-top:1px solid rgba(43,33,26,.35)}
+.numbers-table td{padding:.32rem .5rem .32rem 0;vertical-align:top}
+.numbers-table .n-fig{
+  font-family:var(--display);font-weight:900;font-size:.95rem;white-space:nowrap;
+  width:1%;color:var(--ink);
+}
+.numbers-table .n-what{color:var(--ink-soft)}
+.numbers-table .n-status{color:var(--muted);font-style:italic;width:34%}
+
+/* ---------------- news in brief ---------------- */
+.briefs{border-top:3px double var(--rule);margin-top:1.5rem;padding-top:.7rem}
+.briefs-head{
+  font-family:var(--display);font-weight:900;font-size:1.02rem;text-transform:uppercase;
+  letter-spacing:.2em;color:var(--accent);margin:0 0 .6rem;text-align:center;
+}
+.brief-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.9rem 2rem}
+.brief{border-top:1px solid rgba(43,33,26,.45);padding-top:.45rem}
+.brief h4{font-family:var(--display);font-weight:900;font-size:.98rem;line-height:1.12;margin:0 0 .25rem}
+.brief p{margin:0 0 .4rem;font-size:.88rem;line-height:1.5;text-align:justify;hyphens:auto;-webkit-hyphenate-limit-chars:9 4 4;hyphenate-limit-chars:9 4 4}
+.brief p + p{text-indent:1em}
+
+/* ---------------- photographs ---------------- */
+figure.photo{margin:.2rem 0 .9rem;break-inside:avoid}
+figure.photo img{
+  display:block;width:100%;height:auto;border:1px solid rgba(43,33,26,.55);
+  background:#e4d7bc;
+  filter:grayscale(18%) contrast(1.03) sepia(6%);
+}
+figure.photo figcaption{
+  font-size:.78rem;line-height:1.45;color:var(--ink-soft);
+  border-bottom:1px solid rgba(43,33,26,.35);padding:.3rem 0 .25rem;
+}
+figure.photo .cap{font-style:italic}
+figure.photo .credit{
+  display:block;margin-top:.16rem;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);
+}
+
+/* ---------------- front page ---------------- */
+.front-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 2rem}
+.front-item{border-top:1px solid rgba(43,33,26,.45);padding-top:.85rem}
+.inside{
+  border-top:3px double var(--rule);margin-top:1rem;padding-top:.5rem;
+  font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);text-align:center;
+}
+.inside b{color:var(--accent)}
+
+/* ---------------- sources page ---------------- */
+h3.src-sec{
+  font-family:var(--display);font-weight:900;font-size:.95rem;text-transform:uppercase;
+  letter-spacing:.18em;color:var(--accent);margin:1.2rem 0 .35rem;
+  border-bottom:1px solid var(--rule);padding-bottom:.22rem;
+}
+ul.src-list{list-style:none;margin:0;padding:0;column-count:2;column-gap:1.6rem;font-size:.84rem;line-height:1.46}
+ul.src-list li{margin:0 0 .4rem;break-inside:avoid;padding-left:.85rem;text-indent:-.85rem}
+ul.src-list a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(140,29,22,.3)}
+ul.src-list .src-date{color:var(--muted);font-size:.74rem;margin-left:.35rem}
+ul.src-list em{display:block;color:var(--ink-soft);font-style:normal;font-size:.74rem}
+
+/* ---------------- controls ----------------
+   The bar is a slip of the same paper, parked under the sheet so it
+   never covers a column. */
+.controls{
+  position:fixed;left:50%;bottom:14px;transform:translateX(-50%);
+  display:flex;align-items:center;justify-content:center;gap:.45rem;
+  z-index:50;width:max-content;max-width:calc(100vw - 20px);
+  background:linear-gradient(180deg,#f7f1e4,#e7dcc4);
+  border:1px solid var(--rule);border-radius:2px;
+  padding:.4rem .55rem;
+}
+.controls button,.controls select{
+  font-family:var(--serif);font-size:.82rem;color:var(--ink);
+  background:transparent;border:1px solid rgba(42,33,26,.4);border-radius:2px;
+  padding:.34rem .7rem;cursor:pointer;
+}
+.controls button:hover:not(:disabled){background:rgba(255,255,255,.45)}
+.controls button:disabled{opacity:.35;cursor:default}
+.controls select{max-width:11rem}
+.controls .counter{color:var(--ink-soft);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;padding:0 .3rem;white-space:nowrap}
+.dots{display:flex;gap:.28rem;flex-wrap:wrap;max-width:46vw;justify-content:center}
+.dots button{width:28px;height:28px;padding:0;border-radius:2px;font-size:.68rem}
+.dots button[aria-current="true"]{background:var(--accent);color:#f7f1e4;border-color:var(--accent);font-weight:700}
+.paper-foot{
+  display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;
+  border-top:3px double var(--rule);margin-top:1.3rem;padding-top:.55rem;
+  font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);
+}
+.page.turn-in{animation:turn .34s ease-out}
+@keyframes turn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+a{color:var(--accent);text-underline-offset:.14em}
+
+/* ---------------- full edition + print ---------------- */
+.all-pages .controls{display:none!important}
+body.all-pages{padding-bottom:28px}
+body.all-pages::before{display:none}
+.all-page{break-before:page}
+.all-page:first-child{break-before:auto}
+@media screen{
+  .all-pages{background:#2a2a2c;padding:24px 12px}
+  .all-page{margin:0 0 2.4rem;padding-bottom:1.6rem;border-bottom:4px double var(--rule)}
+  .all-page:last-child{border-bottom:0}
+}
+@media print{
+  @page{margin:14mm}
+  html,body{background:#fff!important;padding:0}
+  body::before{display:none}
+  body{color:#000;font-size:10.5pt}
+  .paper{box-shadow:none;padding:0;background:#fff;border-top:3px solid #000;border-bottom:3px solid #000;padding:6mm 0}
+  .paper::after{display:none}
+  .controls{display:none!important}
+  .ear{display:block}
+  .masthead-grid{display:grid;grid-template-columns:34mm minmax(0,1fr) 34mm;gap:4mm}
+  .story,figure.photo,.body{break-inside:auto}
+  h2.headline{break-after:avoid}
+  .body{column-count:2}
+  a{color:#000;border-bottom:0}
+  ul.src-list a[href^="http"]::after{content:" " attr(href);font-size:.72em;color:#444;word-break:break-all}
+}
+
+/* ---------------- responsive ---------------- */
+@media (max-width:1000px){
+  .ear{display:none}
+  .masthead-grid{display:block}
+}
+@media (max-width:900px){
+  .body{column-count:2}
+  .dots{display:none}
+  .front-grid{grid-template-columns:1fr;gap:0}
+  .brief-grid{grid-template-columns:1fr;gap:.7rem}
+  .settle-grid{grid-template-columns:1fr;gap:.55rem}
+  ul.src-list{column-count:1}
+  body{padding:12px 8px 72px}
+  body::before{height:64px}
+  figure.photo img{max-height:22vh;object-fit:cover;object-position:center 40%}
+  .controls{
+    left:0;right:0;bottom:0;transform:none;width:100%;max-width:none;
+    border-left:0;border-right:0;border-bottom:0;border-radius:0;
+    justify-content:space-between;
+    box-shadow:0 -8px 18px rgba(20,16,12,.18);
+  }
+}
+@media (max-width:620px){
+  /* justify at this measure alternates rivers with hyphen breaks */
+  .body p,.body .first,.brief p{text-align:left}
+  body{font-size:17px}
+  .paper{padding:14px 12px}
+  .body,.body.two{column-count:1}
+  .masthead-top{font-size:.55rem;letter-spacing:.08em;flex-wrap:wrap;justify-content:center;gap:.2rem .8rem}
+  .nameplate{font-size:clamp(1.55rem,8.4vw,2.3rem)}
+  .section-flag p{letter-spacing:.04em;line-height:1.45}
+  h2.hl-lead{font-size:clamp(1.7rem,8vw,2.15rem)}
+  .tagline{font-size:.55rem;letter-spacing:.18em}
+  .dateline{font-size:.56rem;letter-spacing:.08em;flex-wrap:wrap;gap:.2rem .6rem}
+  .controls{flex-wrap:wrap;justify-content:center;gap:.35rem;padding:.35rem .45rem}
+  .controls .counter{font-size:.62rem}
+  .controls button,.controls select{font-size:.74rem;padding:.3rem .5rem}
+}

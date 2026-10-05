@@ -1,0 +1,136 @@
+{
+ "classroom": {
+  "file": "classroom.jpg",
+  "height": 757,
+  "sourceWidth": 1100,
+  "widths": [
+   560,
+   1100
+  ]
+ },
+ "code-screen": {
+  "file": "code-screen.jpg",
+  "height": 733,
+  "sourceWidth": 1100,
+  "widths": [
+   560,
+   1100
+  ]
+ },
+ "eu-parliament": {
+  "file": "eu-parliament.jpg",
+  "height": 621,
+  "sourceWidth": 1100,
+  "widths": [
+   560,
+   1100
+  ]
+ },
+ "gpu-chip": {
+  "file": "gpu-chip.jpg",
+  "height": 675,
+  "sourceWidth": 1100,
+  "widths": [
+   560,
+   1100
+  ]
+ },
+ "humanoid": {
+  "file": "humanoid.jpg",
+  "height": 733,
+  "sourceWidth": 1100,
+  "widths": [
+   560,
+   1100
+  ]
+ },
+ "lab-bench": {
+  "file": "lab-bench.jpg",
+  "height": 743,
+  "sourceWidth": 1100,
+  "widths": [
+   560,
+   1100
+  ]
+ },
+ "lead-data-centre": {
+  "file": "lead-data-centre.jpg",
+  "height": 793,
+  "sourceWidth": 1099,
+  "widths": [
+   560
+  ]
+ },
+ "metal-type": {
+  "file": "metal-type.jpg",
+  "height": 733,
+  "sourceWidth": 1100,
+  "widths": [
+   560,
+   1100
+  ]
+ },
+ "newsroom": {
+  "file": "newsroom.jpg",
+  "height": 799,
+  "sourceWidth": 1100,
+  "widths": [
+   560,
+   1100
+  ]
+ },
+ "office-desks": {
+  "file": "office-desks.jpg",
+  "height": 733,
+  "sourceWidth": 1100,
+  "widths": [
+   560,
+   1100
+  ]
+ },
+ "pair-programming": {
+  "file": "pair-programming.jpg",
+  "height": 825,
+  "sourceWidth": 1100,
+  "widths": [
+   560,
+   1100
+  ]
+ },
+ "robot-arm": {
+  "file": "robot-arm.jpg",
+  "height": 1604,
+  "sourceWidth": 1100,
+  "widths": [
+   560,
+   1100
+  ]
+ },
+ "substation": {
+  "file": "substation.jpg",
+  "height": 733,
+  "sourceWidth": 1100,
+  "widths": [
+   560,
+   1100
+  ]
+ },
+ "trading-floor": {
+  "file": "trading-floor.jpg",
+  "height": 733,
+  "sourceWidth": 1100,
+  "widths": [
+   560,
+   1100
+  ]
+ },
+ "us-capitol": {
+  "file": "us-capitol.jpg",
+  "height": 619,
+  "sourceWidth": 1100,
+  "widths": [
+   560,
+   1100
+  ]
+ }
+}

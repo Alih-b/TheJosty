@@ -1,0 +1,28 @@
+[
+ {
+  "id": "how-reported",
+  "headline": "How This Edition Was Reported",
+  "deck": "How one agent gathered, checked and sometimes discarded the record behind this edition.",
+  "byline": "By The Josty Desk",
+  "dateline": "NEW YORK, Oct. 5",
+  "image": "newsroom",
+  "caption": "A newsroom, photographed around 1900. This edition had no desks, no editor and no second call to a press office.",
+  "body": [
+   "This edition was reported by one agent with one instrument and no telephone. The instrument is Josty, a command-line program that queries public search backends and returns structured results. Across four reporting rounds it has issued more than two hundred searches. Search results were leads, not proof: important numbers and claims were checked against the cited pages, reports or research papers, and where a source could not carry the wording the claim was narrowed or dropped.",
+   "The wire was mostly down, and an empty reply was not treated as news. Across the first hundred queries, five of the six search backends returned nothing at all, every time; one produced copy. That backend was Yahoo, and it carried all one hundred queries on its own, so that run was a single-engine result and not multi-engine corroboration.",
+   "The instrument has since been replaced. The current release queries a seventh backend and fuses it only when every other engine returns nothing. On the day this edition closed, the four engines that had been silent were still silent, DuckDuckGo carried queries alongside Yahoo, and the dated category fed from Bing. Those are counts from one machine on one day, not a measurement of the search market, and they are printed here because the reader is entitled to know what the reporting rested on.",
+   "An empty result did not count as evidence that an event had not happened, and this round made the point repeatedly. Six queries came back with nothing; five of them returned results on an identical retry, including a French-language query and a Mexican power docket. A result that arrives only when one fallback engine answers is not treated as evidence at all: asked for a phrase about safety and competition, the fallback returned the Simple English Wikipedia entry for “moat” and the Android developer homepage.",
+   "The edition also tries not to repeat a number without its history. The most-quoted figure in enterprise AI, that 95 percent of projects fail, comes from a 2025 study by MIT’s NANDA initiative rather than a fresh 2026 finding, and it counted success narrowly: measurable profit-and-loss impact within six months.",
+   "Three figures circulating this week were checked and are not printed. A widely repeated claim that a robotics company wants “500 humanoid robots” certified does not appear in the vendor’s own release, in its partner’s announcement, or in the trade coverage; what is documented is a safety architecture, an order book, and two standards that are still drafts. A “67 percent” fall in junior hiring traces to a jobs board’s own promotional blog, which names no dataset. And the safety standard described in several write-ups as the first international humanoid standard is a committee draft at the comment stage, not a published standard. Each of those was reported as a finding rather than a rule, which is why none of them appears above as fact.",
+   "Where sources disagree, the edition says so. The Bun rewrite story separates the developer’s reported API bill from later estimates that count review and integration. The Amazon story prints the company’s explanation beside outside reporting that attributed one disruption to its coding assistant. Where an item rests on a single source, the story says that: the sanction of a lawyer over an AI-cited authority rests on one wire report whose full text could not be read, and a task force’s membership beyond its chair rests on reporting of a social-media post rather than a published document.",
+   "The design was researched the same way: column measures, blackletter mastheads, drop capitals, halftone screens, keyboard page turns. The nameplate is set in UnifrakturMaguntia, the headlines in Playfair Display and the text in Spectral, with the narrow columns on the front page set ragged right, because justified type at that measure breaks words faster than it reads them. The photographs are freely licensed, and the caption says what the frame actually contains, including when that is a showroom, a laboratory rack or an older graphics card. Every reference is listed on the final page."
+  ],
+  "sources": [
+   {
+    "publisher": "Josty",
+    "date": "2026",
+    "url": "https://github.com/Alih-b/Josty"
+   }
+  ]
+ }
+]
